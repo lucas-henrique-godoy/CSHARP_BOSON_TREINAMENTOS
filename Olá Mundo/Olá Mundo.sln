@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olá Mundo", "Olá Mundo\Olá Mundo.csproj", "{52F53F4E-CB9D-4769-B382-304C8CF171AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olá Mundo", "Olá Mundo\Olá Mundo.csproj", "{DCAD2FC1-B7D3-4834-AF0F-C4F4687CE188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52F53F4E-CB9D-4769-B382-304C8CF171AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52F53F4E-CB9D-4769-B382-304C8CF171AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52F53F4E-CB9D-4769-B382-304C8CF171AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52F53F4E-CB9D-4769-B382-304C8CF171AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAD2FC1-B7D3-4834-AF0F-C4F4687CE188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAD2FC1-B7D3-4834-AF0F-C4F4687CE188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAD2FC1-B7D3-4834-AF0F-C4F4687CE188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAD2FC1-B7D3-4834-AF0F-C4F4687CE188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {699EC8FD-C949-4298-9088-9091C4B2F764}
+		SolutionGuid = {168905C7-9CBF-4D04-B748-A185614E2B01}
 	EndGlobalSection
 EndGlobal
