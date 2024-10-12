@@ -15,4 +15,4 @@ MinhasClasses.Console - nome completo.
 Se eu colocar a minha classe em outro Namespace e usar o nome completo como: MinhasClasses. Console não gerará conflito. Mas se eu utilizar o nome parcial como: Console, ai terá conflito e eu teria que usar apenas uma das 2 classes Console o projeto.
 _________________________________________________________________________________________________________________________________________________________________________
 
-DIRETIVA USING: 
+DIRETIVA USING: trazem os Namespaces para o escopo  do projeto.
