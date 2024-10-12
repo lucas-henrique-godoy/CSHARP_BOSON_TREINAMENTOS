@@ -1,14 +1,16 @@
-							- CURSO DE C# DO CANAL BÓSON TREINAMENTOS.
+							* CURSO DE C# DO CANAL BÓSON TREINAMENTOS *
 
 NAMESPACES: Usado para organizar tipos (classes), permitindo evitar colisões de nomes. Basicamente, um namespace é uma coleção nomeada de classes.
+
 - Boa prática: todas as classes devem ser definidas dentro de um namespace.
 EX.:
 Classe Console (definida pelo C#)
-System.Console
+System.Console - nome completo.
 
 _________________________________________________________________________________________________________________________________________________________________________
 Classe Console(definida pelo usuário)
 Namespace MinhasClasses
-MinhasClasses.Console
+MinhasClasses.Console - nome completo.
 
 Se eu colocar a minha classe em outro Namespace e usar o nome completo como: MinhasClasses. Console não gerará conflito. Mas se eu utilizar o nome parcial como: Console, ai terá conflito e eu teria que usar apenas um das 2 classes Console.
+s
