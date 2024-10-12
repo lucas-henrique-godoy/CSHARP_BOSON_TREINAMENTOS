@@ -19,4 +19,7 @@ DIRETIVA USING: Trazem os Namespaces para o escopo  do projeto. Desta forma não
 EX: Assim posso escrever: Console.WriteLine ao invés de System.Console.WriteLine.
 _________________________________________________________________________________________________________________________________________________________________________
 
-ASSEMBLY /MONTAGEM: As classes são compiladas em Assemblies - são arquivos, usualmente com a extensão .dll. As classes mais comuns, System.Console pertencem ao assembly mscorlib.dll. Uma montagem pode conter classes definidas em muitos namespaces, e um namespace pode ocupar vários assemblies.
+ASSEMBLY /MONTAGEM: As classes são compiladas em Assemblies - São arquivos, usualmente com a extensão .dll. As classes mais comuns, System.Console pertencem ao assembly mscorlib.dll. Uma montagem pode conter classes definidas em muitos namespaces, e um namespace pode ocupar vários assemblies. Para usarmos as classes de um assembly, devemos adicionar uma referência no projeto, e incluir a diretiva "using" adequada.
+
+REFERÊNCIAS: Uma referência permite que utilizemos tipos disponíveis em outros Assemblies, tanto do FLC quanto de terceiros.
+FCL = Framework Class Library.
