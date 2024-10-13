@@ -45,3 +45,19 @@ AGORA DECLANDO E ATRIBUINDO VALOR: int x = 20, y = 30;
 TIPS DIFERENTES: Linhas diferentes:
 int x= 20;
 boola = true.
+_______________________________________________________________________________________________________________________________________________________________________
+
+OPERADORES ARITMÉTICOS: 
++ ADIÇÃO
+- SUBTRAÇÃO
+/ DVISÃO
+* MULTIPLICAÇÃO
+% MÓDULO(RESRO DA DIVISÃO INTEIRA)
+_______________________________________________________________________________________________________________________________________________________________________
+
+OBSERVAÇÕES: 
+Divisão por zero é infinito.
+Os tipos doble e float possuem um valor especial para representar o infinito: 5.0 / 0.0 -> +infinito.
+Porém: 0.0 / 0.0 -> NaN (Not a Nuber), pois é um paradoxo - zero dividido por qualquer valor é zero, mas qualquer valor dividido por zero é infinito.
+
+
