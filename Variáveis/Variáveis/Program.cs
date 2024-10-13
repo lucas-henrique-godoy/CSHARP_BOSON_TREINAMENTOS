@@ -10,6 +10,12 @@ namespace Variáveis
     {
         static void Main(string[] args)
         {
+            int x = 20;
+            bool a = true;
+            Console.WriteLine("O número é " + x);
+            Console.WriteLine("E o valor lógico é " + a);
+
+            Console.ReadLine();
         }
     }
 }
