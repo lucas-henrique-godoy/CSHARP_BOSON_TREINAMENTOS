@@ -116,7 +116,7 @@ USANDO OPERADORES BOOLEANOS: Um operador booleano é um operador que realiza um 
 
 
 
-- Operadores Condicionais Lógicos:
+- Operadores Condicionais Lógicos: Permitem combinar expressões ou valores booleanos e retornar um resultado lógico.
 ! (NOT) 
 && (AND) 
 || (OR) 
