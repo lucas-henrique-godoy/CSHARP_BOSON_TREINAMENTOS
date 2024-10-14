@@ -67,5 +67,13 @@ PRECEDÊNCIA DOS OPERADORES: Os operadores são avaliados na seguinte ordem de p
 ()
 * / %
 + -
+_______________________________________________________________________________________________________________________________________________________________________
 
+CONVERTER UM INT PARA STRING: 
+int numero = 123;
+string numeroStr = numero.ToString(); // "123"
+
+CONVETER UM STRING PARA INT:
+string valor01 = "25";
+Console.WriteLine(Int32.Parse(valor01));
 
