@@ -76,4 +76,18 @@ string numeroStr = numero.ToString(); // "123"
 CONVERÇÃO DE STRING EM INTEIRO:
 string valor01 = "25";
 Console.WriteLine(Int32.Parse(valor01));
+_______________________________________________________________________________________________________________________________________________________________________
+
+OPERADORES DE ATRIBUIÇÃO:
+=: toma um valor e coloca dentro de uma variável.
+
++=: acumular valores dentro de uma variável. Tomar um valor que já está na variável e somar outro valor a esse valor anterior. Ex: var += valor é equivalente a var = var + valor.
+
+-=: subtrai um valor de uma variável. Tomar um valor que já está na variável e subtrair outro valor. Ex: var -= valor é equivalente a var = var - valor.
+
+*=: multiplica o valor atual da variável pelo valor especificado. Ex: var *= valor é equivalente a var = var * valor.
+
+/=: divide o valor da variável pelo valor especificado. Ex: var /= valor é equivalente a var = var / valor.
+
+%=: calcula o resto da divisão do valor da variável pelo valor especificado. Ex: var %= valor é equivalente a var = var % valor.
 
