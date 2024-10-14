@@ -94,11 +94,11 @@ ________________________________________________________________________________
 
 OPERADORES DE INCREMENTO E DECREMENTO
 
- Incremento e Decremento Pré-fixos: Incrementa antes
+ Incremento e Decremento Pré-fixos: Incrementa a variável primeiro e depois executa o comando que esta asssociado a variável.
  ++variável |  variável = variável + 1 |  variável += 1
  --variável |  variável = variável - 1 |  variável -= 1
 
-Incremento e Decremento Pós- fixos: Incrementa depois
+Incremento e Decremento Pós- fixos: Primeiro executa o comando associado a variável e depois incrementa a variável.
 variável++   |  variável = variável + 1  |   variável += 1
 variável--   |  variável = variável - 1  |   variável -= 1
 

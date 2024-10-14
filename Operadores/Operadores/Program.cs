@@ -28,10 +28,19 @@ namespace Operadores
             //variável++   |  variável = variável + 1  |   variável += 1
             //variável--   |  variável = variável - 1  |   variável -= 1
 
+            //PÓS-FIXO
             int contador;
             contador = 50;
             Console.WriteLine(contador);
             Console.WriteLine(contador++);
+            Console.WriteLine(contador);
+
+            Console.WriteLine("---------------------------------\n");
+
+            //PRÉ-FIXO
+            contador = 50;
+            Console.WriteLine(contador);
+            Console.WriteLine(++contador);
             Console.WriteLine(contador);
         }
     }
