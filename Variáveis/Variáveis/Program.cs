@@ -11,7 +11,7 @@ namespace Variáveis
         static void Main(string[] args)
         {
 
-            /*
+            /* Convertendo int para string
             int x = 90;
             bool a = false;
             int y;
@@ -21,18 +21,12 @@ namespace Variáveis
             Console.WriteLine("O número é: " + y.ToString());
             */
 
-            double a = 5.0;
-            double b = 0.0;
+            // Fzendo as 2 conversões: string para int e int para string
+            string valor01 = "25"; // variável declarada como string
+            int num1 = Int32.Parse(valor01);
+            int resultado = num1 * 2;
+            Console.WriteLine("Resultado: " + resultado.ToString());
 
-            Console.WriteLine("Valor dividido por zero: " + (a / b));
-            Console.WriteLine("Zero dividido por um valor qualquer: " + (b / a));
-            Console.WriteLine("Zero dividido por zero: " + (b / b));
-            Console.WriteLine("Soma de NaN com um valor qualquer, como 15: " + (15 + (b / b)));
-            Console.WriteLine("Soma de Infinito com um valor qualquer, como 15: " + (15 + (a / b)));
-            Console.WriteLine("Zero vezes Infinito: " + (0 * (a / b)));
-            Console.WriteLine("Zero vezes NaN: " + (0 * (b / b)));
-
-           
             Console.ReadLine();
         }
     }

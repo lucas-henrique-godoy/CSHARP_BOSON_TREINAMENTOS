@@ -69,11 +69,11 @@ PRECEDÊNCIA DOS OPERADORES: Os operadores são avaliados na seguinte ordem de p
 + -
 _______________________________________________________________________________________________________________________________________________________________________
 
-CONVERTER UM INT PARA STRING: 
+CONVERÇÃO DE INTEIRO EM STRING: 
 int numero = 123;
 string numeroStr = numero.ToString(); // "123"
 
-CONVETER UM STRING PARA INT:
+CONVERÇÃO DE STRING EM INTEIRO:
 string valor01 = "25";
 Console.WriteLine(Int32.Parse(valor01));
 
