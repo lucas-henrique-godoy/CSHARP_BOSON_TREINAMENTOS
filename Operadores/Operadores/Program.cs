@@ -8,6 +8,22 @@ namespace Operadores
         {
             // Operadores de Atribuição
             // =, +=, -=, *=, /*
+
+            int var01;
+            var01 = 50;
+            Console.WriteLine("Atribuição:  {0}", var01);
+            var01 += 20;
+            Console.WriteLine("Acumulando: {0}", var01);
+            var01 *= 2;
+            Console.WriteLine("Multiplicando: {0}", var01);
+
+            // Operadores de Incremento e Decremento
+
+            // Incremento e Decremento Pré-fixos:
+            // ++variável   variável = variável + 1   variável += 1
+            // --variável   variável = variável - 1   variável -= 1
+
+
         }
     }
 }

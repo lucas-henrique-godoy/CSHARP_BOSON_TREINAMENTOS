@@ -90,4 +90,17 @@ OPERADORES DE ATRIBUIÇÃO:
 /=: divide o valor da variável pelo valor especificado. Ex: var /= valor é equivalente a var = var / valor.
 
 %=: calcula o resto da divisão do valor da variável pelo valor especificado. Ex: var %= valor é equivalente a var = var % valor.
+_______________________________________________________________________________________________________________________________________________________________________
+
+OPERADORES DE INCREMENTO E DECREMENTO
+
+ Incremento e Decremento Pré-fixos:
+ ++variável |  variável = variável + 1 |  variável += 1
+ --variável |  variável = variável - 1 |  variável -= 1
+
+Incremento e Decremento Pós- fixos:
+variável++   |  variável = variável + 1  |   variável += 1
+variável--   |  variável = variável - 1  |   variável -= 1
+
+
 
