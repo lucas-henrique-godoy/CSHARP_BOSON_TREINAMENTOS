@@ -1,26 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Operadores_Aritméticos
+class Program
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            int num1 = 20;
-            int num2 = 11;
+        double a = 5.0;
+        double b = 0.0;
 
-            Console.WriteLine("Soma: " + (num1 + num2).ToString());
-            Console.WriteLine("Subtração: " + (num1 - num2).ToString());
-            Console.WriteLine("Multiplicação: " + (num1 * num2).ToString());
-            Console.WriteLine("Divisão: " + (num1 / num2).ToString());
-            Console.WriteLine("Módulo: " + (num1 % num2).ToString());
+        Console.WriteLine("Valor dividido por zero: " + (a / b));
+        Console.WriteLine("Zero dividido por um valor qualquer: " + (b / a));
+        Console.WriteLine("Zero dividido por zero: " + (b / b));
+        Console.WriteLine("Soma de NaN com um valor qualquer, como 15: " + (15 + (b / b)));
+        Console.WriteLine("Soma de Infinito com um valor qualquer, como 15: " + (15 + (a / b)));
+        Console.WriteLine("Zero vezes Infinito: " + (0 * (a / b)));
+        Console.WriteLine("Zero vezes NaN: " + (0 * (b / b)));
 
-            Console.ReadLine();
-
-        }
+        Console.ReadKey();
     }
 }
