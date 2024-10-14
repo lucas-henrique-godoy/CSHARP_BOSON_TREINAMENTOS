@@ -101,6 +101,22 @@ OPERADORES DE INCREMENTO E DECREMENTO
 Incremento e Decremento Pós- fixos: Primeiro executa o comando associado a variável e depois incrementa a variável.
 variável++   |  variável = variável + 1  |   variável += 1
 variável--   |  variável = variável - 1  |   variável -= 1
+_______________________________________________________________________________________________________________________________________________________________________
+
+OPERADORES RELACIONAIS E LÓGICOS:
+
+USANDO OPERADORES BOOLEANOS: Um operador booleano é um operador que realiza um cálculo cujo resultado pode ser ture ou false. Em C# hhá vários operadores booleanos, que podem ser classificados em dois tipos distintos:
+- Operadores Relacionais e de Igualdade:
+== 	Igual a        x == 15
+!= 	Diferente de   a != "Laranja"
+< 	Menor          c < 40			
+<= 	Menor que      x <= y
+> 	Maior          salario > 100
+>= 	Maior que      taxa >= 400
+
+
+
+- Operadores Condicionais Lógicos.
 
 
 
