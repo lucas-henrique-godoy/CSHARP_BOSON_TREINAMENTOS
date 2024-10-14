@@ -63,6 +63,7 @@ Porém: 0.0 / 0.0 -> NaN (Not a Nuber), pois é um paradoxo - zero dividido por 
 _______________________________________________________________________________________________________________________________________________________________________
 
 PRECEDÊNCIA DOS OPERADORES: Os operadores são avaliados na seguinte ordem de precedência:
+
 ()
 * / %
 + -
