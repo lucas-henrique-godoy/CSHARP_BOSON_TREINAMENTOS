@@ -161,6 +161,13 @@ switch (expressão)
 }
 
 
+OBS: Não é possível atribuir o mesmo valro para dois rótulos case distintos. 
+EX: 
+case 1:
+case 1:
+	código a ser executado
+	brake;
+
 
 
 
