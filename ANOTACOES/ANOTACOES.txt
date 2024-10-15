@@ -122,13 +122,26 @@ USANDO OPERADORES BOOLEANOS: Um operador booleano é um operador que realiza um 
 || (OR): Avalia dois ou mais valores lógicos. O resultado é verdadeiro se pelo menos um dos valores for verdadeiro.
 _______________________________________________________________________________________________________________________________________________________________________
 
-ESTRUTURAS DE CONTROLE CONDICONAL SIMPLES:
+ESTRUTURAS DE CONTROLE CONDICIONAL SIMPLES:
 
 CONDICIONAL IF: Usada para testar condições e determinar as ações a seguir de acordo com o resultado do teste.
 Sintaxe:
 if (expressão) {	
     códigos a executar;	
 }
+
+
+ESTRUTURAS DE CONTROLE CONDICIONAL COMPOSTO:
+Sintaxe:
+if (expressão) {	
+    códigos a executar se expressão for verdadeira;	
+}
+else
+{
+   códigos a executar se expressão for falsa;	
+}
+
+
 
 
 
