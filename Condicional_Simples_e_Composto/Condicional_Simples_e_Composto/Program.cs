@@ -6,7 +6,7 @@ namespace Condicional_Simples_e_Composto
     {
         static void Main(string[] args)
         {
-            /* Condional Simples:            
+            // Condional Simples:            
             int num1;
             int num2;            
             Console.WriteLine("Digite um número: ");
@@ -17,8 +17,6 @@ namespace Condicional_Simples_e_Composto
             {
                 Console.WriteLine("Os números são iguais");
             }
-            */
-
 
 
             // Condicional Composto:
