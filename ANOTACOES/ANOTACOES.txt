@@ -142,7 +142,7 @@ else
 }
 _______________________________________________________________________________________________________________________________________________________________________
 
-DECLARAÇÃO SWITCH ("comando caso"). Só é possível usar com alguns tipos de dados como: int, string ou char.
+DECLARAÇÃO SWITCH ("comando caso"). Só é possível usar com alguns tipos de dados como: int, string ou char. Nos caes devem ser sempre valores constantes, não é possível calculalos, ou seja para usar os valores nos cases eles não podem ser alterados.
 Sintaxe:
 switch (expressão)
 {
