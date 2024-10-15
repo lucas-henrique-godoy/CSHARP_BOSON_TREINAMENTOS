@@ -120,6 +120,15 @@ USANDO OPERADORES BOOLEANOS: Um operador booleano é um operador que realiza um 
 ! (NOT): Inverte o valor lógico de uma expressão. Se a expressão for verdadeira, o resultado é falso, e vice-versa.
 && (AND): Avalia dois ou mais valores lógicos. O resultado é verdadeiro apenas se todos os valores forem verdadeiros.
 || (OR): Avalia dois ou mais valores lógicos. O resultado é verdadeiro se pelo menos um dos valores for verdadeiro.
+_______________________________________________________________________________________________________________________________________________________________________
+
+ESTRUTURAS DE CONTROLE CONDICONAL SIMPLES:
+
+CONDICIONAL IF: Usada para testar condições e determinar as ações a seguir de acordo com o resultado do teste.
+Sintaxe:
+if (expressão) {	
+    códigos a executar;	
+}
 
 
 
