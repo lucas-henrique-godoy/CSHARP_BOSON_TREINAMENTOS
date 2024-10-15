@@ -14,42 +14,39 @@ namespace Condicional_Aninhado
             if (diaSemana == 1)
             {
                 nome = "Domingo";
-                Console.WriteLine(nome);
             }
             else if (diaSemana == 2)
             {
-                nome = "Segunda-feira";
-                Console.WriteLine(nome);
+                nome = "Segunda-feira";                
             }
             else if (diaSemana == 3)
             {
-                nome = "Terça-feira";
-                Console.WriteLine(nome);
+                nome = "Terça-feira";                
             }
             else if (diaSemana == 4)
             {
-                nome = "Quarta-feira";
-                Console.WriteLine(nome);
+                nome = "Quarta-feira";                
             }
             else if (diaSemana == 5)
             {
-                nome = "Quinta-feira";
-                Console.WriteLine(nome);
+                nome = "Quinta-feira";                
             }
             else if (diaSemana == 6)
             {
-                nome = "Sexta-feira";
-                Console.WriteLine(nome);
+                nome = "Sexta-feira";                
             }
             else if (diaSemana == 7)
             {
-                nome = "Sábado";
-                Console.WriteLine(nome);
+                nome = "Sábado";                
             }
             else
             {
-                Console.WriteLine("Dia inválido!");
+                nome = "Dia inválido!";
             }
+
+            Console.WriteLine("O dia escolhido foi: {0}", nome);
+
+            Console.ReadLine();
         }
     }
 }
