@@ -140,6 +140,27 @@ else
 {
    códigos a executar se expressão for falsa;	
 }
+_______________________________________________________________________________________________________________________________________________________________________
+
+DECLARAÇÃO SWITCH ("comando caso")
+Sintaxe:
+switch (expressão)
+{
+  case valor_a_ser_comparado_01:
+	código a ser executado
+	brake;
+ case valor_a_ser_comparado_02:
+	código a ser executado
+	brake;
+ case valor_a_ser_comparado_03:
+	código a ser executado
+	brake;
+ default:
+	código a ser executado
+	break;
+}
+
+
 
 
 
