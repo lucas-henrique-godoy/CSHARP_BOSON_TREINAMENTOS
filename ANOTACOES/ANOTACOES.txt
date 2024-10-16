@@ -189,8 +189,15 @@ for (inicialização; expressão; controle)
 }
 _______________________________________________________________________________________________________________________________________________________________________
 
-ESTRUTURA DO WHILE ("Faça Enquanto"): Os loops while e for testam a expressão booleana no inívio do loop. 
+ESTRUTURA DO WHILE ("Faça Enquanto"): Os loops while e for testam a expressão booleana no inívio do loop. No caso da declaração do a expressão booleana é avaliada APÓS cada iteração; desta forma o corpo do loop será executado ao menos uma vez.
  
+Sintaxe:
+
+do 
+{
+  bloco de comandos;
+}
+while (expressão de teste);
 
 
 
