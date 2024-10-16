@@ -218,9 +218,9 @@ do
 while (expressão de teste);
 _______________________________________________________________________________________________________________________________________________________________________
 
-DECLARAÇÃO BREAK: Utilizada para sair imediatamente do corpo de um loop.
+DECLARAÇÃO BREAK: Utilizada para sair imediatamente do corpo de um loop. O break interrompe o loop completamente, o continue interrompe uma iteração do loop mas sem sair do programa
 
-DECLARAÇÃO CONTINUE: Podemos uma declaração continue para que um loop seja interrompido e realize a próxima iteração imediatamente, ignorando os comandos que estão após a declaração continue. Ou seja, o loop vai executando os comandos do seu bloco de comandos e ao encontrar a declaração continue,  ele para a execução(ele não executa o restante do bloco), mas ele não sai do loop, ele volta pro inicio avalia novamente e expressão do loop e começa de novo a iterar o bloco. O continue interrompe uma iteração do loop mas sem sair do programa.
+DECLARAÇÃO CONTINUE: Podemos uma declaração continue para que um loop seja interrompido e realize a próxima iteração imediatamente, ignorando os comandos que estão após a declaração continue. Ou seja, o loop vai executando os comandos do seu bloco de comandos e ao encontrar a declaração continue,  ele para a execução(ele não executa o restante do bloco), mas ele não sai do loop, ele volta pro inicio avalia novamente e expressão do loop e começa de novo a iterar o bloco. O continue interrompe uma iteração do loop mas sem sair do programa, o break interrompe o loop completamente.
 
 
 

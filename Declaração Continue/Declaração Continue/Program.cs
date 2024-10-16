@@ -14,13 +14,13 @@ namespace Declaração_Continue // Define um namespace chamado Declaração_Cont
 
                 if (numero < 10 || numero > 20) // Verifica se o número está fora do intervalo de 10 a 20
                 {
-                    continue; // Se o número estiver fora do intervalo, volta ao início do loop
+                    continue; // Interrompe a iteração - Se o número estiver fora do intervalo, volta ao início do loop
                 }
                 else // Se o número estiver dentro do intervalo (10 a 20)
                 {
                     if (numero == 15) // Verifica se o número é exatamente 15
                     {
-                        break; // Se for 15, sai do loop
+                        break; // Interrompe o loop compeltamente - Se for 15, sai do loop
                     }
                     Console.WriteLine("Número: {0}", numero); // Exibe o número se estiver entre 10 e 20
                 }
