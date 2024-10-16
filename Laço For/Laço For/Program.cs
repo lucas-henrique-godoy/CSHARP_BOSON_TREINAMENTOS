@@ -6,7 +6,8 @@ namespace Laço_For
     {
         static void Main(string[] args)
         {
-            for (int contador = 1; contador <= 50; contador++)
+            int contador;
+            for (contador = 1; contador <= 50; contador++)
             {
                 Console.WriteLine(contador);
             }
