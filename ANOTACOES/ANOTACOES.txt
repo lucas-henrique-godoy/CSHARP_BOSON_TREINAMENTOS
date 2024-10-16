@@ -198,6 +198,9 @@ do
   bloco de comandos;
 }
 while (expressão de teste);
+_______________________________________________________________________________________________________________________________________________________________________
+
+DECLARAÇÃO BREAK: Utilizada para sair imediatamente do corpo de um loop.
 
 
 
