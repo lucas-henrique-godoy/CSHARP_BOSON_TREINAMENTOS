@@ -180,6 +180,7 @@ while (expressão_teste)
   código a ser repetido;
 }
 
+ESTRUTURA FOR: 
 
  
 
