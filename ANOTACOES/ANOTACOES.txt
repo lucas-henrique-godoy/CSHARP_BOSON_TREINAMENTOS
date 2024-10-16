@@ -179,6 +179,24 @@ while (expressão_teste)
 {
   código a ser repetido;
 }
+
+OBS: O while (true) cria um loop que nunca termina por conta própria, ou seja, ele continuará rodando até que um comando de saída (como break) seja encontrado.
+EX: 
+int numero;
+while (true)
+{
+    Console.WriteLine("Digite um número; número 15 encerra o loop");
+    numero = int.Parse(Console.ReadLine());
+    if (numero == 15)
+    {
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Número digitado: {0}, ", numero);
+    }                
+}
+Console.WriteLine("Esta mensagem aparece após o encerramento do loop");
 _______________________________________________________________________________________________________________________________________________________________________
 ESTRUTURA FOR ("Para"): Difere do while, onde no while você tem que ficar se preocupando dentro do próprio código com a escrita de uma instrução que eventualmente encerre o loop, para que não tenha loop infinito. No For, é mais fácil, pois em uma linha já é possível definir o inicio e o fim do loop, ou seja devem ser loops para os quais você já saiba de antemão quantas vezes ele vai rodar. Exemplo de uso do for: Quando trabalhamos com arrays ou matrizes. Nem sempre será possível utilizar o for, terá situações onde precisaremos ter maior interação maior com o usuário, nesses casos devemos usar o while ou o do.
 

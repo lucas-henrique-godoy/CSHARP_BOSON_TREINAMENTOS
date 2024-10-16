@@ -21,6 +21,7 @@ namespace Declaração_Break
                 }                
             }
             Console.WriteLine("Esta mensagem aparece após o encerramento do loop");
+            
         }
     }
 }
