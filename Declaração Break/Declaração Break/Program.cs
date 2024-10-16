@@ -20,7 +20,7 @@ namespace Declaração_Break
                     Console.WriteLine("Número digitado: {0}, ", numero);
                 }                
             }
-            Console.WriteLine("Fim do loop!");
+            Console.WriteLine("Esta mensagem aparece após o encerramento do loop");
         }
     }
 }
