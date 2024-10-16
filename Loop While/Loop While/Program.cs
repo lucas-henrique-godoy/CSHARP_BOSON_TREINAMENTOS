@@ -6,13 +6,12 @@ namespace Loop_While
     {
         static void Main(string[] args)
         {
-            int contador = 0;
-            while (contador <= 10)
+            int contador = 1;
+            while (contador <= 50)
             {
                 Console.WriteLine(contador);
                 contador++;
-            }
-            
+            }            
         }
     }
 }
