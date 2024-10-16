@@ -171,6 +171,14 @@ ________________________________________________________________________________
 
 ESTRUTURAS DE REPETIÇÃO: É um bloco de códigos que pode ser repetido indefinidamente ou  um número definido de vezes em sequência automaticamente. As vezes precisamos que determinadas instruções seja repetidas várias vezes em sequência. Elas são:   WHILE, FOR, DO.
 
+ESTRUTURA WHILE ("Enquanto"): Usamos a declaração while para rodar um bloco de códigos repetidamente enquanto uma condição de teste especificada retornar verdadeiro (valor lógico).
+Sintaxe:
+while (expressão_teste) 
+{
+  código a ser repetido;
+}
+
+
  
 
 
