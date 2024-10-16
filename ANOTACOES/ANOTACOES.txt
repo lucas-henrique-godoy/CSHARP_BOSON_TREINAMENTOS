@@ -189,7 +189,7 @@ for (inicialização; expressão; controle)
 }
 _______________________________________________________________________________________________________________________________________________________________________
 
-ESTRUTURA DO WHILE ("Faça Enquanto"): Os loops while e for testam a expressão booleana no inívio do loop. No caso da declaração do a expressão booleana é avaliada APÓS cada iteração; desta forma o corpo do loop será executado ao menos uma vez.
+ESTRUTURA DO WHILE ("Faça Enquanto"): Os loops while e for testam a expressão booleana no início do loop. No caso da declaração do a expressão booleana é avaliada APÓS cada iteração; desta forma o corpo do loop será executado ao menos uma vez. Então se queremos uma aplicação que execute um comando antes de fazer um teste lógico para verificar se ele vai continuar sendo executado, deve-se utilizar o do. 
  
 Sintaxe:
 
