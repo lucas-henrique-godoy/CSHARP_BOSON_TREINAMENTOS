@@ -220,6 +220,8 @@ ________________________________________________________________________________
 
 DECLARAÇÃO BREAK: Utilizada para sair imediatamente do corpo de um loop.
 
+DECLARAÇÃO CONTINUE: Podemos uma declaração continue para que um loop seja interrompido e realize a próxima iteração imediatamente, ignorando os comandos que estão após a declaração continue.
+
 
 
 
