@@ -167,6 +167,13 @@ case 1:
 case 1:
 	código a ser executado
 	brake;
+_______________________________________________________________________________________________________________________________________________________________________
+
+ESTRUTURAS DE REPETIÇÃO: É um bloco de códigos que pode ser repetido indefinidamente ou  um número definido de vezes em sequência automaticamente. As vezes precisamos que determinadas instruções seja repetidas várias vezes em sequência. Elas são:   WHILE, FOR, DO.
+
+ 
+
+
 
 
 
