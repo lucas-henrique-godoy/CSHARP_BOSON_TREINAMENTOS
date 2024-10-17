@@ -232,6 +232,7 @@ Exemplo: int[] numeros_loteria;
 
 OBS: O tamanho do array não faz parte da declaração. Podemos criar array de qualquer tipo, tanto de valor quanto de referência.
 
+_______________________________________________________________________________________________________________________________________________________________________
 CRIAR UMA INSTÂNCIA O ARRAY: Os arrays são tipos de referência, independentemente do tio de seus elementos. Ou seja, uma variável array faz referência a um boco de memória que armazenará os elementos do array no heap.
 Assim como com as variáveis de classes,  memória não é alocada para o array até que criemos uma instância dele usando o operador new. O array somente recebe espaço na memória a instância é criada -  e é quando especificamos o tamanho do array.
 
@@ -240,6 +241,7 @@ Como a memória para  a instância do array é alocada dinamicanete, o tamanho d
 int tamanho = Int32.Parse(Console.ReadLine());
 int[] valores = new int[tamanho];
 
+_______________________________________________________________________________________________________________________________________________________________________
 PREENCHENDO UM ARRAY: Podemos inicializar os elementos de um array fornecendo uma lista de elementos separados por vírgulas, entre chaves:
 int[] numeros_loteria = new int[6] {2, 23,, 34, 12, 29, 44};
 
@@ -247,7 +249,14 @@ Podemos também usar essa sintaxe:
 int[] numeros_loteria = {2, 23,, 34, 12, 29, 44};
 
 Omitindo a palavra new - o compilador calcula o tamanho do array a partir da lista de elementos inicializadores e gera o código que cria o array.
+_______________________________________________________________________________________________________________________________________________________________________
 
+ITERAÇÃO PELOS ELEMENTOS DE UM ARRAY: Podemos consultar a propriedade Lenght para descobrir quantos elementos um array possui, e assim iterar por eles usando um laço for:
+int[] meuaaray = {2,4,6,3,5,9};
+for (int i = 0; i < meuarray.Lenght; i++)
+{
+  Console.WriteLine(meuarray[i]);
+}
 
 
 
