@@ -232,8 +232,13 @@ Exemplo: int[] numeros_loteria;
 
 OBS: O tamanho do array não faz parte da declaração. Podemos criar array de qualquer tipo, tanto de valor quanto de referência.
 
-CRIAR UMA INSTÂNCIA O ARRAY: Os arrays são tipos de referência, Sindependentemente do tio de seus elementos. Ou seja, uma variável array faz referência a um boco de memória que armazenará os elementos do array no heap.
+CRIAR UMA INSTÂNCIA O ARRAY: Os arrays são tipos de referência, independentemente do tio de seus elementos. Ou seja, uma variável array faz referência a um boco de memória que armazenará os elementos do array no heap.
 Assim como com as variáveis de classes,  memória não é alocada para o array até que criemos uma instância dele usando o operador new. O array somente recebe espaço na memória a instância é criada -  e é quando especificamos o tamanho do array.
+
+Como a memória para  a instância do array é alocada dinamicanete, o tamanho do array pode ser calculado em tempo de execução:
+
+int tamanho = Int32.Parse(Console.ReadLine());
+int[] valores = new int[tamanho];
 
 
 
