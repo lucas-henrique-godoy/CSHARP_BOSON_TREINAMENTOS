@@ -225,6 +225,17 @@ ________________________________________________________________________________
 
 ARRAY: Um array ("vetor") é uma sequência não-ordenada de itens. Todos os itens em um array são do mesmo tipo. Os itens em um array são armazenados em um bloco contíguo da memória RAM e são acessados por meio de um número de índice.
 
+Sintaxe:
+tipo[] nome_array;
+
+Exemplo: int[] numeros_loteria;
+
+OBS: O tamanho do array não faz parte da declaração. Podemos criar array de qualquer tipo, tanto de valor quanto de referência.
+
+CRIAR UMA INSTÂNCIA O ARRAY: Os arrays são tipos de referência, Sindependentemente do tio de seus elementos. Ou seja, uma variável array faz referência a um boco de memória que armazenará os elementos do array no heap.
+Assim como com as variáveis de classes,  memória não é alocada para o array até que criemos uma instância dele usando o operador new. O array somente recebe espaço na memória a instância é criada -  e é quando especificamos o tamanho do array.
+
+
 
 
 
