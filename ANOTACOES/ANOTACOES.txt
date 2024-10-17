@@ -240,6 +240,13 @@ Como a memória para  a instância do array é alocada dinamicanete, o tamanho d
 int tamanho = Int32.Parse(Console.ReadLine());
 int[] valores = new int[tamanho];
 
+PREENCHENDO UM ARRAY: Podemos inicializar os elementos de um array fornecendo uma lista de elementos separados por vírgulas, entre chaves:
+int[] numeros_loteria = new int[6] {2, 23,, 34, 12, 29, 44};
+
+Podemos também usar essa sintaxe:
+int[] numeros_loteria = {2, 23,, 34, 12, 29, 44};
+
+Omitindo a palavra new - o compilador calcula o tamanho do array a partir da lista de elementos inicializadores e gera o código que cria o array.
 
 
 
