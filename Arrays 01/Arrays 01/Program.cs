@@ -8,7 +8,8 @@ namespace Arrays_01
         {
             int[] numeros_loteria = new int[6] { 2,23,34,12,29,44 }; // Declaração e instanciação do array.           
             int valor;
-            valor = 40;
+            Console.WriteLine("Digite um número: ");
+            valor = int.Parse(Console.ReadLine());
             numeros_loteria[4] = valor;
             Console.WriteLine("O elemento é {0}", numeros_loteria[4].ToString());
             
