@@ -267,6 +267,15 @@ foreh (int elemento in mearray)  // a variável iterativa (elemento) deve ser do
 }
 
 OBS: Não é possível  modificar os elementos do array enquanto é feita iteração com foreach(usar for). Mas se a intenção for somente retornar todos os elementos do array na sequencia, utilize o foreach, ele sempre itera por todos os elementos do array, começando em 0 e indo até o final.
+_______________________________________________________________________________________________________________________________________________________________________
+
+COPIANDO ARRAYS: Para copiarmos os dados de um array, vamos proceder da seguinte forma: Criamos uma nova instância de array do mesmo tipo e mesmo tamanho do array original. Depois, copiamos os elementos um por um do original para o novo array:
+int[] números = {4,7,3,8,0};
+int[] copiaNumeros = new int[números.Length];
+for (int i = 0; números.Length; i++)
+{
+  copiaNumeros[i] = numeros[i];
+}
 
 
 
