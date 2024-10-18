@@ -261,12 +261,12 @@ ________________________________________________________________________________
 
 ITERAÇAO COM FOREACH: Podemos iterar pelos elementos de um array para retornar seus elementos sem nos preocuparmos em determinar seu tamanho, usando a estrutura foreach:
 int[] meuarray = {2,4,6,3,5,9};
-foreh (int elementos in mearray)
+foreh (int elemento in mearray)  // a variável iterativa (elemento) deve ser do mesmo tipo dos valores que estão dentro do array.
 {
    Console.WriteLine(elemento);
 }
 
-
+OBS: Não é possível  modificar os elementos do array enquanto é feita iteração com foreach(usar for). Mas se a intenção for somente retornar todos os elementos do array na sequencia, utilize o foreach, ele sempre itera por todos os elementos do array, começando em 0 e indo até o final.
 
 
 
