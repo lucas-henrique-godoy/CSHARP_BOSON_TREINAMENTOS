@@ -272,7 +272,7 @@ ________________________________________________________________________________
 COPIANDO ARRAYS: Para copiarmos os dados de um array, vamos proceder da seguinte forma: Criamos uma nova instância de array do mesmo tipo e mesmo tamanho do array original. Depois, copiamos os elementos um por um do original para o novo array:
 int[] números = {4,7,3,8,0};
 int[] copiaNumeros = new int[números.Length];
-for (int i = 0; números.Length; i++)
+for (int i = 0; i < numeros.Length; i++)
 {
   copiaNumeros[i] = numeros[i];
 }
