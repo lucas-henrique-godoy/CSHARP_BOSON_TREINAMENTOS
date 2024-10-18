@@ -10,7 +10,12 @@ namespace Copy_To
             int[] copiaNumeros = new int[numeros.Length];
 
             // Copiando os elementos com o método CpyTo
-            numeros.CopyTo()
+            numeros.CopyTo(copiaNumeros, 1);
+
+            for (int i = 0; i < copiaNumeros.Length; i++)
+            {
+                Console.WriteLine(copiaNumeros[i]);
+            }
         }
     }
 }
