@@ -257,6 +257,14 @@ for (int i = 0; i < meuarray.Length; i++)
 {
   Console.WriteLine(meuarray[i]);
 }
+_______________________________________________________________________________________________________________________________________________________________________
+
+ITERAÇAO COM FOREACH: Podemos iterar pelos elementos de um array para retornar seus elementos sem nos preocuparmos em determinar seu tamanho, usando a estrutura foreach:
+int[] meuarray = {2,4,6,3,5,9};
+foreh (int elementos in mearray)
+{
+   Console.WriteLine(elemento);
+}
 
 
 
