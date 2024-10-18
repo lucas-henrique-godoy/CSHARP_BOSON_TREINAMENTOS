@@ -281,7 +281,8 @@ MÉTODO CopyTo: Neste exemplo, copiaremos os elementos do array números para o 
 
 int[] números = {4,7,3,8,0};
 int[] copiaNumeros = new int[numeros.Length];
-números.CopyTo(copiaNumeros, 0);
+números.CopyTo(copiaNumeros, 0);  
+O zero indica a primeira posição pelo qual eu quero começar a copiar os valores do array(pode ser de qualquer outra posição existente)
 
 Inicializamos o array de destino antes de chamar o método.
 
