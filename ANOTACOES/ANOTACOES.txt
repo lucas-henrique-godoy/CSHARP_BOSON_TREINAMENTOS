@@ -296,6 +296,16 @@ ________________________________________________________________________________
 
 MÉTODOS: Um método é uma sequência de declarações (comandos) que possui um nome de identificação. É similar a uma função ou procedimento. Um método possui um nome e um corpo onde ficam os comandos que serão executados quando o método for chamado. Os métodos também podem receber dados para processamento (parâmetros) e retornar informações.
 
+DECLARAÇÃO DE MÉTODOS
+Sintaxe:
+acesso tipo retorno nome método
+(parâmetros)
+{
+   corpo do método (variáveis e declarações)
+}
+
+OBS: Caso você esteja escrevendo um método que não retornará um valor, use a palavra void no lugar de tipo_retorno.
+
 
 
 
