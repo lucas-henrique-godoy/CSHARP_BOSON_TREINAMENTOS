@@ -303,8 +303,7 @@ acesso tipo retorno nome método (parâmetros)
    corpo do método (variáveis e declarações)
 }
 
-OBS: Caso você esteja escrevendo um método que não retornará um valor, use a palavra void no lugar de tipo_retorno.
-
+OBS: Caso você esteja escrevendo um método que não retornará um valor, use a palavra void no lugar de tipo_retorno. O método deve sempre executar uma operação única, se você estiver escrevendo um método que faz mais de uma tarefa, mais de um calculo por exemplo, você esta fazendo errado, provavelmente o que eu tenho que fazer é criar 2 métodos, uma para cada tarefa/operação.
 
 
 
