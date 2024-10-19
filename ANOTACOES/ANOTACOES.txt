@@ -298,8 +298,7 @@ MÉTODOS: Um método é uma sequência de declarações (comandos) que possui um
 
 DECLARAÇÃO DE MÉTODOS
 Sintaxe:
-acesso tipo retorno nome método
-(parâmetros)
+acesso tipo retorno nome método (parâmetros)
 {
    corpo do método (variáveis e declarações)
 }
