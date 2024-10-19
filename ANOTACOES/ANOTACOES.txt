@@ -292,6 +292,9 @@ OBS: o método CopyTo não necessariamente vai copiar todos os elementos, ele po
 EX: COPIANDO A PARTIR DA POSIÇÃO 0.
 números.CopyTo(copiaNumeros, 0); 
 O zero indica a primeira posição pelo qual eu quero começar a copiar os valores do array(pode ser de qualquer outra posição existente).
+_______________________________________________________________________________________________________________________________________________________________________
+
+MÉTODOS: Um método é uma sequência de declarações (comandos) que possui um nome de identificação. É similar a uma função ou procedimento. Um método possui um nome e um corpo onde ficam os comandos que serão executados quando o método for chamado. Os métodos também podem receber dados para processamento (parâmetros) e retornar informações.
 
 
 
