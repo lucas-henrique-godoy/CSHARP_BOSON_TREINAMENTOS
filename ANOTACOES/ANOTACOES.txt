@@ -317,7 +317,7 @@ Sintaxe:
 resutado = nome método(argumentos);
 
 Se o método for void (não retorna valores), então a cláusula resultado = não será usada:
-nome método(argumentos);
+nome_método(argumentos);
 
 
 
