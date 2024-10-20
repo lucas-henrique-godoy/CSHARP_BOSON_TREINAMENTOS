@@ -320,7 +320,7 @@ OBS-7: Tipo de acesso Static, significa que não preciso criar uma instância da
 OBS-8: Para poder usar uma classe, você cria uma instância dela que nós chamados de objeto, e utiliza esse objeto dentro do programa.
 Então se um classe possui métodos, para poder acessar os método dessa classe, você instancia a classe primeiro criando um objeto e ai você consegue acessar os métodos dentro do objeto. Se declararmos um método como static, você não precisa criar uma instância para trabalhar com ele.
 
-OBS-9: Não deve-se criar um método dentro de outro método. Inclusive não deve-se criar um método dentro do método Main.
+OBS-9: Não deve-se criar um método dentro de outro método. Inclusive, não deve-se criar um método dentro do método Main.
 
 
 CHAMANDO MÉTODOS:
@@ -329,6 +329,11 @@ resutado = nome método(argumentos);
 
 Se o método for void (não retorna valores), então a cláusula resultado = não será usada:
 nome_método(argumentos);
+_______________________________________________________________________________________________________________________________________________________________________
+
+PARÂMETROS: Em C# temos quatro tipos de parâmetros de métodos: valor, ref, out, params.
+
+PARÂMETROS DE VALOR: Este é o tipo padrão. Os parâmetros de valor passam uma cópia local de si mesmos ao método. Ou seja, o método usa o parâmetro, porém a cópia original do chamador não é modificada. O argumento passado deve ser do mesmo tipo do parâmetro, ou ao menos conversível implicitamente. 
 
 
 
