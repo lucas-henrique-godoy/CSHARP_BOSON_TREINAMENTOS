@@ -320,6 +320,8 @@ OBS-7: Tipo de acesso Static, significa que não preciso criar uma instância da
 OBS-8: Para poder usar uma classe, você cria uma instância dela que nós chamados de objeto, e utiliza esse objeto dentro do programa.
 Então se um classe possui métodos, para poder acessar os método dessa classe, você instancia a classe primeiro criando um objeto e ai você consegue acessar os métodos dentro do objeto. Se declararmos um método como static, você não precisa criar uma instância para trabalhar com ele.
 
+OBS-9: Não deve-se criar um método dentro de outro método. Inclusive não deve-se criar um método dentro do método Main.
+
 
 CHAMANDO MÉTODOS:
 Sintaxe:
