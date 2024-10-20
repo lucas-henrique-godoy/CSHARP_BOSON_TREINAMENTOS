@@ -309,5 +309,7 @@ OBS-2: Caso você esteja escrevendo um método que não retornará um valor, use
 
 OBS-3: O VOID significa este método executa uma tarefa e não retorna dados para o chamador.
 
+OBS-: O tipo de acesso no método, tem a ver com a visibidade que o método. A partir de onde eu posso acessar esse método.
+
 
 
