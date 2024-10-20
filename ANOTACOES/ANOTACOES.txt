@@ -307,5 +307,7 @@ OBS-1: Em programação existem as funções que são sequencias de comandos que
 
 OBS-2: Caso você esteja escrevendo um método que não retornará um valor, use a palavra void no lugar de tipo_retorno. O método deve sempre executar uma operação única, se você estiver escrevendo um método que faz mais de uma tarefa, mais de um calculo por exemplo, você esta fazendo errado, provavelmente o que voce tem que fazer é criar 2 métodos, uma para cada tarefa/operação.
 
+OBS-3: O VOID significa este método executa uma tarefa e não retorna dados para o chamador.
+
 
 
