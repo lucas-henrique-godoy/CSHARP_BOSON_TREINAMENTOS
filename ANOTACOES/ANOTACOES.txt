@@ -305,7 +305,7 @@ acesso tipo retorno nome método (parâmetros)
 
 OBS-1: Em programação existem as funções que são sequencias de comandos que retornam dados, e existem os procedimentos que são sequencias de comandos que executam uma ação ou uma tarefa (ex: escrever uma mensagem na tela). Já métodos fazem as duas coisas, ele pode agir tanto como se fosse uma função, quanto como se fosse um procedimento, a diferença vai estar na forma como você escreve o método.  
 
-OBS-2: Caso você esteja escrevendo um método que não retornará um valor, use a palavra void no lugar de tipo_retorno. O método deve sempre executar uma operação única, se você estiver escrevendo um método que faz mais de uma tarefa, mais de um calculo por exemplo, você esta fazendo errado, provavelmente o que eu tenho que fazer é criar 2 métodos, uma para cada tarefa/operação.
+OBS-2: Caso você esteja escrevendo um método que não retornará um valor, use a palavra void no lugar de tipo_retorno. O método deve sempre executar uma operação única, se você estiver escrevendo um método que faz mais de uma tarefa, mais de um calculo por exemplo, você esta fazendo errado, provavelmente o que voce tem que fazer é criar 2 métodos, uma para cada tarefa/operação.
 
 
 
