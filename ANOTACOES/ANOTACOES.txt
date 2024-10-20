@@ -333,7 +333,9 @@ ________________________________________________________________________________
 
 PARÂMETROS: Em C# temos quatro tipos de parâmetros de métodos: valor, ref, out, params.
 
-PARÂMETROS DE VALOR: Este é o tipo padrão. Os parâmetros de valor passam uma cópia local de si mesmos ao método. Ou seja, o método usa o parâmetro, porém a cópia original do chamador não é modificada. O argumento passado deve ser do mesmo tipo do parâmetro, ou ao menos conversível implicitamente. 
+PARÂMETROS DE VALOR: Este é o tipo padrão. Os parâmetros de valor passam uma cópia local de si mesmos ao método. Ou seja, o método usa o parâmetro, porém a cópia original do chamador não é modificada. O argumento passsado deve ser do mesmo tipo do parâmetro, ou ao menos conversível implicitamente. 
+
+PARÂMETROS REF: Prefixando um parâmetro com palavra ref, o compilador do C# gera código eu passa uma referência ao argumento real em vez de uma cópia do argumento. Tanto o argumento quanto o parâmetro referenciam os mesmo dados
 
 
 
