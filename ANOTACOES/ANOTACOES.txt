@@ -313,7 +313,7 @@ OBS-4: O tipo de acesso no método, tem a ver com a visibilidade que o método. 
 
 OBS-5: Os parênteses dos métodos devem sempre deverão estar  no método mesmo que não haja argumento nenhum para ser passado.
 
-OBS-6: Os parâmetros são variáveis ou dados que você passa para o método enquanto você esta escrevendo o método. Os argumentos são as variáveis ou dados que você passa para o método na hora que você chama o método.
+OBS-6: Os parâmetros são variáveis ou dados que você passa para o método enquanto você esta escrevendo o método. Os argumentos são as variáveis ou dados que você passa para o método na hora que você chama o método, e os argumentos são mapeados para os parâmetros correspondentes.
 
 
 CHAMANDO MÉTODOS:
