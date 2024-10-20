@@ -312,4 +312,12 @@ OBS-3: O VOID significa este método executa uma tarefa e não retorna dados par
 OBS-: O tipo de acesso no método, tem a ver com a visibidade que o método. A partir de onde eu posso acessar esse método.
 
 
+CHAMANDO MÉTODOS:
+Sintaxe:
+resutado = nome método(argumentos);
+
+Se o método for void (não retorna valores), então a cláusula resultado = não será usada:
+nome método(argumentos);
+
+
 
