@@ -325,7 +325,7 @@ OBS-9: Não deve-se criar um método dentro de outro método. Inclusive, não de
 
 CHAMANDO MÉTODOS:
 Sintaxe:
-resutado = nome método(argumentos);
+resultado = nome método(argumentos);
 
 Se o método for void (não retorna valores), então a cláusula resultado = não será usada:
 nome_método(argumentos);
