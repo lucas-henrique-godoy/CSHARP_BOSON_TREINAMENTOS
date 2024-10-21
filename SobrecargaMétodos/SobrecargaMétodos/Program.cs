@@ -12,7 +12,7 @@ namespace SobrecargaMétodos
             num1 = int.Parse(Console.ReadLine());
             resultado = potencia(num1);
             Console.WriteLine("O qadrado de {0} é {1}", num1, resultado);
-
+            Console.WriteLine();
             Console.WriteLine("Digite dois nºs para calcular x ^ y: ");
             num1 = int.Parse(Console.ReadLine());
             num2 = int.Parse(Console.ReadLine());
