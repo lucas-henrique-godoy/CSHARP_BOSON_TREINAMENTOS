@@ -340,6 +340,12 @@ ________________________________________________________________________________
 
 SOBRECARGA DE MÉTODOS: Métodos sobrecarregados são métodos que possuem o mesmo nome e são declarados no mesmo escopo. A sobrecarga é útil quando precisamos efetuar a operação em tipos diferentes de dados u conjuntos de informações que variam. 
 Métodos sobrecarregados podem possuir número de parâmetros diferente ou ainda tipos de parâmetros diferentes. O tipo de dados de retorno, contudo, é sempre o mesmo para todos os métodos sobrecarregados. Um exemplo clássico é o método WriteLine da classe Console. 
+_______________________________________________________________________________________________________________________________________________________________________
+
+PARÂETOS OPCIONAIS EM MÉTODOS C#: 
+- Valor padrão atribuído ao parâmetro. Isso que significa quena hora que você chama esse método, você vai ter 1 ou mais parâmetros que precisam ser passados e você ode configurar alguns deles com valor padrão. O parâmetro que tiver o valor padrão ele é opcional você ode ou não passar o argumento para esse método durante a  execução(durante a chamada do método), e se você passar um argumento ele vai usar aquele argumento como parâmetro. Se você não passar nenhum argumento, ele usa o valor padrão como parâmetro. Uma coisa importante quando você trabalhar com parâmetros opcionais, é que todos os parâmetros obrigatórios tem que ser especificados antes dos opcionais. Então se você tiver um método no qual você tem que passar vários parâmetros, alguns deles são opcionais e alguns não(obrigatórios), os obrigatórios tem que ser especificados antes.
+
+OBS: Todos os parâmetros mandatórios devem ser especificados ANTES dos opcionais.      
 
 
 
