@@ -374,11 +374,11 @@ ________________________________________________________________________________
 
 MODOFICADORES DE ACESSO: Um modificador de acesso permite determinar o nível de acessibilidade dos membros e tipos em um método, controlando assim como eles podem - ou não - serem acessados por outros métodos ou a partir de outros assemblies. Os modificadores de acesso em C# são:
 
-* PUBLIC: O tipo ou membro public pode ser acessado sem restrições por qualquer outro código no mesmo assembly ou em outros assemblies que façam referência a ele.
+* PUBLIC(MAIS USADO): O tipo ou membro public pode ser acessado sem restrições por qualquer outro código no mesmo assembly ou em outros assemblies que façam referência a ele.
 
-* PRIVATE:
+* PRIVATE(MAIS USADO): O tipo ou membro private só pode ser acessado por códigos que estejam na mesma classe ou struct.
 
-* PROTECTED:
+* PROTECTED: O tipo ou membro protected só pode ser acessado por códigos da classe ou struct ao qual pertencem, ou ainda em uma classe que seja derivada desta classe que contém o modificador.
 
 * INTERNAL: 
 
