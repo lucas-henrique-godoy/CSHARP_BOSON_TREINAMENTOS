@@ -347,7 +347,10 @@ PARÂETOS OPCIONAIS EM MÉTODOS C#:
 
 OBS: Todos os parâmetros mandatórios devem ser especificados ANTES dos opcionais.
 
-O C# usa a posição de cada argumento passado ao método para determinar a quais parâmetros eles se referem (em ordem!).      
+O C# usa a posição de cada argumento passado ao método para determinar a quais parâmetros eles se referem (em ordem!).
+_______________________________________________________________________________________________________________________________________________________________________
+
+ARGUMENTOS NOMEADOS: É possível passar os argumentos para um método em qualquer ordem.       
 
 
 
