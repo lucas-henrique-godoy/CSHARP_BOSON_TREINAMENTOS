@@ -369,7 +369,22 @@ public void Configurar(int largura, int altura, string cor = "azul")
 
 // Chamada com argumentos nomeados
 Configurar(altura: 200, largura: 300);
-Neste exemplo, o parâmetro cor é opcional e, ao usar argumentos nomeados, você pode chamar o método sem especificar sua posição. Isso torna o código mais claro e fácil de entender.    
+Neste exemplo, o parâmetro cor é opcional e, ao usar argumentos nomeados, você pode chamar o método sem especificar sua posição. Isso torna o código mais claro e fácil de entender.  
+_______________________________________________________________________________________________________________________________________________________________________
+
+MODOFICADORES DE ACESSO: Um modificador de acesso permite determinar o nível de acessibilidade dos membros e tipos em um método, controlando assim como eles podem - ou não - serem acessados por outros métodos ou a partir de outros assemblies. Os modificadores de acesso em C# são:
+
+* PUBLIC: O tipo ou membro public pode ser acessado sem restrições por qualquer outro código no mesmo assembly ou em outros assemblies que façam referência a ele.
+
+* PRIVATE:
+
+* PROTECTED:
+
+* INTERNAL: 
+
+* PROTECTED INTERNAL:
+
+  
 
 
 
