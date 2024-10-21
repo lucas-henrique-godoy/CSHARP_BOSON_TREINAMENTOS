@@ -20,7 +20,7 @@ namespace ParâmetrosOpcionais
             Console.WriteLine("Passando o parâmetro opcional: ");
             Console.WriteLine("Digite o parâmetro obrigatório (número): ");
             parametro01 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Agora diite o parâmetro opcional: (texto) ");
+            Console.WriteLine("Agora digite o parâmetro opcional: (texto) ");
             parametro02 = Console.ReadLine();
             paramOpcional(parametro01, parametro02);
 
@@ -29,7 +29,7 @@ namespace ParâmetrosOpcionais
 
         static void paramOpcional(int par1, string par2 = "Inserido pelo método")
         {
-            string resultado = "Parâmetro obrigatório: " + par1.ToString() + "Parâmetro opcional: " + par2;
+            string resultado = "Parâmetro obrigatório: " + par1.ToString() + " Parâmetro opcional: " + par2;
             Console.WriteLine(resultado);
         }
     }
