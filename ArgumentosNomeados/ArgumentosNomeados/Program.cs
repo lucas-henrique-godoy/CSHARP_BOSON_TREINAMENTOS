@@ -14,7 +14,7 @@ namespace ArgumentosNomeados
             Console.WriteLine("Digite o parâmetro número 01: (número) ");
             parametro01 = int.Parse(Console.ReadLine());
             
-            paramOpcional(par2: parametro02, par1: parametro01); // Passamos o parâmetro02 antes de 
+            paramOpcional(par2: parametro02, par1: parametro01); // Passamos o parâmetro02 antes de parâmetro01 
 
             Console.ReadLine();           
         }
