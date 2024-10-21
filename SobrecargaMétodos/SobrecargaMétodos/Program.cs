@@ -4,6 +4,7 @@ namespace SobrecargaMétodos
 {
     internal class Program
     {
+        // Exemplo de sobrecarga de métodos, onde temos o mesmo método relizando ações diferentes com parâmetros diferentes.
         static void Main(string[] args)
         {
             // Usando o mesmo método potencia com 1 parâmetro.
@@ -26,11 +27,13 @@ namespace SobrecargaMétodos
             Console.ReadLine();
         }
 
+        // Método potencia com 1 parâmetro.
         public static double potencia(int valor1)
         {
             return valor1 * valor1;
         }
 
+        // Método potencia com 2 parâmetros.
         public static double potencia(int valor1, int valor2)
         {
             return Math.Pow(valor1, valor2);
