@@ -345,7 +345,9 @@ ________________________________________________________________________________
 PARÂETOS OPCIONAIS EM MÉTODOS C#: 
 - Valor padrão atribuído ao parâmetro. Isso que significa quena hora que você chama esse método, você vai ter 1 ou mais parâmetros que precisam ser passados e você ode configurar alguns deles com valor padrão. O parâmetro que tiver o valor padrão ele é opcional você ode ou não passar o argumento para esse método durante a  execução(durante a chamada do método), e se você passar um argumento ele vai usar aquele argumento como parâmetro. Se você não passar nenhum argumento, ele usa o valor padrão como parâmetro. Uma coisa importante quando você trabalhar com parâmetros opcionais, é que todos os parâmetros obrigatórios tem que ser especificados antes dos opcionais. Então se você tiver um método no qual você tem que passar vários parâmetros, alguns deles são opcionais e alguns não(obrigatórios), os obrigatórios tem que ser especificados antes.
 
-OBS: Todos os parâmetros mandatórios devem ser especificados ANTES dos opcionais.      
+OBS: Todos os parâmetros mandatórios devem ser especificados ANTES dos opcionais.
+
+O C# usa a posição de cada argumento passado ao método para determinar a quais parâmetros eles se referem (em ordem!).      
 
 
 
