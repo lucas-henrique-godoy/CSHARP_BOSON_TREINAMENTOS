@@ -382,7 +382,7 @@ MODOFICADORES DE ACESSO: Um modificador de acesso permite determinar o nível de
 
 * INTERNAL: O tipo ou membro internal pode ser acessado por código que esteja no mesmo assembly, mas não por códigos presentes em outros assemblies (montagens). 
 
-* PROTECTED INTERNAL: 
+* PROTECTED INTERNAL: O tipo ou membro protected internal pode ser acessado por qualquer código no mesmo assembly, ou de uma classe derivada em outro assembly.
 
   
 
