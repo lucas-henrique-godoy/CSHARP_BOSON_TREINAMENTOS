@@ -21,7 +21,7 @@ namespace ArgumentosNomeados
 
         static void paramOpcional(int par1, string par2 = "Inserido pelo método")
         {
-            string resultado = "Parâmetro obrigatório: " + par1.ToString() + " Parâmetro opcional: " + par2;
+            string resultado = "Parâmetro 01: " + par1.ToString() + " Parâmetro 02: " + par2;
             Console.WriteLine(resultado);
         }
     }
