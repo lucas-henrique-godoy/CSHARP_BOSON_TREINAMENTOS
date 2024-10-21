@@ -350,7 +350,26 @@ OBS: Todos os parâmetros mandatórios devem ser especificados ANTES dos opciona
 O C# usa a posição de cada argumento passado ao método para determinar a quais parâmetros eles se referem (em ordem!).
 _______________________________________________________________________________________________________________________________________________________________________
 
-ARGUMENTOS NOMEADOS: É possível passar os argumentos para um método em qualquer ordem.       
+ARGUMENTOS NOMEADOS: É possível passar os argumentos para um método em qualquer ordem.   
+
+Os argumentos nomeados em C# permitem que você especifique os argumentos de um método usando seus nomes em vez de apenas sua posição. Isso traz várias vantagens:
+
+Clareza: Facilita a leitura do código, pois fica claro o que cada argumento representa, especialmente em métodos com muitos parâmetros.
+
+Flexibilidade: Permite que você omita argumentos opcionais ou especifique apenas os que deseja, sem se preocupar com a ordem.
+
+Melhor manutenção: Ao adicionar novos parâmetros a um método, você não precisa se preocupar em mudar a ordem dos existentes, o que pode evitar erros.
+
+Exemplo:
+
+public void Configurar(int largura, int altura, string cor = "azul")
+{
+    // Configurações
+}
+
+// Chamada com argumentos nomeados
+Configurar(altura: 200, largura: 300);
+Neste exemplo, o parâmetro cor é opcional e, ao usar argumentos nomeados, você pode chamar o método sem especificar sua posição. Isso torna o código mais claro e fácil de entender.    
 
 
 
