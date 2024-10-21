@@ -32,5 +32,12 @@ namespace ParâmetrosOpcionais
             string resultado = "Parâmetro obrigatório: " + par1.ToString() + " Parâmetro opcional: " + par2;
             Console.WriteLine(resultado);
         }
+
+        /*
+            Dentro do método paramOpcioal o argumento string par2 é um parâmetro opcional. 
+            Um parâmetro opcional deve ter um valor atribuído na hora de você declarar esse parâmetro no método,
+            então ao atribuir um valor ele passa a ser opcional porque aquele valor é o valor padrão.
+            É o valor que vai ser usado se não for passado um argumento pra ele. 
+        */
     }
 }
