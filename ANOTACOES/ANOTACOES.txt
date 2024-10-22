@@ -383,6 +383,9 @@ MODOFICADORES DE ACESSO: Um modificador de acesso permite determinar o nível de
 * INTERNAL: O tipo ou membro internal pode ser acessado por código que esteja no mesmo assembly, mas não por códigos presentes em outros assemblies (montagens). 
 
 * PROTECTED INTERNAL: O tipo ou membro protected internal pode ser acessado por qualquer código no mesmo assembly, ou de uma classe derivada em outro assembly.
+_______________________________________________________________________________________________________________________________________________________________________
+
+MODIFICADOR STATIC: Podemos usar a palavra-chave static para criarmos um método estático, de modo que não seja necessário instanciar a classe para usá-lo. O modificador static incida que o membro em questão pertence à classe em si, e não às instâncias da classe. Apenas uma cópia do membro estático existe na aplicação, mesmo que várias instâncias da classe sejam criadas.
 
   
 
