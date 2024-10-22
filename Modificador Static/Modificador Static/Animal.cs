@@ -21,5 +21,10 @@ namespace Modificador_Static
         {
             get { return peso;}
         }
+
+        public static void Mensagem()
+        {
+            Console.WriteLine("Método estático");
+        }
     }
 }
