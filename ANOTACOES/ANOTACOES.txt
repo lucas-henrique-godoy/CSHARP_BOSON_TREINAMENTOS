@@ -398,6 +398,8 @@ NA CLASSE MAIN:
  Animal.Mensagem(); // É só usar a Nome_Classe.Nome_Método
 	            // Executa o método estático Mensagem, não precisando instanciar a classe.
 
+OBS: Existem métodos do próprio .NET Framework que são estáticos como os métodos da classe Math.
+
   
 
 
