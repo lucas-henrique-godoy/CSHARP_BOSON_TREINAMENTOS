@@ -427,6 +427,7 @@ ________________________________________________________________________________
 CONSTRUTOR: Para que possamos usar essa classe ainda é necessário que o campo lado seja inicializado - é inacessível do exterior pois é privado. Faremos isso usando um Construtor.
 Quando usamos a palavra new para criar um objeto, o runtime constrói o objeto usando a definição da classe. O runtime toma um pedaço da memória RAM, a preenche com os campos definidos pela classe e então invoca um construtor que realizará as inicializações requeridas.
 Um Construtor é um método especial que roda automaticamente quando uma classe é instanciada. Possui o mesmo nome da classe,  e pode receber parâmetros, MAS NÃO RETORNA VALORES (nem mesmo void!). Toda classe deve ter um construtor; se um não for escrito, o compilador gerará um automaticamente - um que não faz absolutamente nada.
+_______________________________________________________________________________________________________________________________________________________________________
   
 
 
