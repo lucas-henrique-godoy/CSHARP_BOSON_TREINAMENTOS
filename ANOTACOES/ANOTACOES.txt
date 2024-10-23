@@ -405,6 +405,12 @@ CLASSES: São "pacotes" de código que definem  tipos de dados, os quais possuem
 
 OBJETOS: São instâncias de um tipo (classe) que possuem características e comportamentos. Podemos criar múltiplas instâncias de uma classe. As propriedades, métodos e eventos de uma classe são alocadas em memória através da instância de um objeto.
 
+VANTAGENS DA OOP: 
+1- Reutilização dos código:
+2- Modularidades:
+3- Uso mais simples (realístico):
+4- Código mais limpo e claro:
+
   
 
 
