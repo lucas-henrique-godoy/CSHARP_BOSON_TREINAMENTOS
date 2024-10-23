@@ -399,6 +399,9 @@ NA CLASSE MAIN:
 	            // Executa o método estático Mensagem, não precisando instanciar a classe.
 
 OBS: Existem métodos do próprio .NET Framework que são estáticos, como os métodos da classe Math.
+_______________________________________________________________________________________________________________________________________________________________________
+
+CLASSES: São "pacotes" de código que definem  tipos de dados, os quais possuem propriedades e operações (métodos) em linguagens orientadas a objetos (OOP). As propriedades armazenam valores e características dos dados. Já os métodos são funções internas às classes, que permitem agir sobre elas para executar ações.
 
   
 
