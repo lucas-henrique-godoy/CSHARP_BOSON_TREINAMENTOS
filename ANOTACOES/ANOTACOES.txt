@@ -412,6 +412,16 @@ VANTAGENS DA OOP:
 3- Uso mais simples (realístico):
 4- Código mais limpo e claro:
 
+CRIAR CLASSES: Usamos a palavra-chave class para definir uma nova classe. Exemplo:
+
+class Caixa
+{
+    double lado;
+    double Volume()
+    {
+        return lado * lado * lado;
+    }
+}
   
 
 
