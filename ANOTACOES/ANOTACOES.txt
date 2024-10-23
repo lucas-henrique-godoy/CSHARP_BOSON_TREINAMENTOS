@@ -422,6 +422,9 @@ class Caixa
         return lado * lado * lado;
     }
 }
+_______________________________________________________________________________________________________________________________________________________________________
+
+CONSTRUTOR: Para que possamos usar essa classe ainda é necessário que o campo lado seja inicializado - é inacessível do exterior pois é privado. Faremos isso usando um Construtor.
   
 
 
