@@ -403,6 +403,8 @@ ________________________________________________________________________________
 
 CLASSES: São "pacotes" de código que definem  tipos de dados, os quais possuem propriedades e operações (métodos) em linguagens orientadas a objetos (OOP). As propriedades armazenam valores e características dos dados. Já os métodos são funções internas às classes, que permitem agir sobre elas para executar ações.
 
+OBJETOS: São instâncias de um tipo (classe) que possuem características e comportamentos. Podemos criar múltiplas instâncias de uma classe. As propriedades, métodos e eventos de uma classe são alocadas em memória através da instância de um objeto.
+
   
 
 
