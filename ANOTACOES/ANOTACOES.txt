@@ -571,6 +571,10 @@ Console.WriteLine("O valor é {0}", Acumula.soma.ToString()); // Exibe 9
 Neste caso, as chamadas a incrementa em qualquer instância afetariam a mesma variável soma. Portanto, escolha entre static e instance com base no comportamento desejado para sua aplicação.
 _______________________________________________________________________________________________________________________________________________________________________
 
+INTERFACES GRÁFICAS EM C#:
 
+WINDOWS FORMS APPLICATION:
+
+WINDOWS PRESENSENTATION FOUNDATION (WPF):
 
 
