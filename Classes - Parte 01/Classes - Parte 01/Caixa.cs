@@ -24,5 +24,12 @@ namespace Classes___Parte_01
         {
             return lado * lado * lado;
         }
+
+        public static int CaixaLdoDois() // Criei um méodo estático(não precisa instanciar)
+        {
+            int lat = 2;
+            int vol = lat * lat * lat;
+            return vol;
+        }
     }
 }

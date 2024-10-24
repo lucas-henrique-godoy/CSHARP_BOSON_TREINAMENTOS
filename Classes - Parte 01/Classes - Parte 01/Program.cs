@@ -27,7 +27,12 @@ namespace Classes___Parte_01
             Console.WriteLine(volumeCaixa.ToString());
 
             // Exibe o volume da segunda caixa
-            Console.WriteLine(volumeCaixa2.ToString());            
+            Console.WriteLine(volumeCaixa2.ToString());
+
+
+
+            Console.WriteLine(Caixa.CaixaLdoDois().ToString()); // Usando o método estático         
+
         }
 
     }
