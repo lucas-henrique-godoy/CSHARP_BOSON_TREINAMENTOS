@@ -429,6 +429,64 @@ Quando usamos a palavra new para criar um objeto, o runtime constrói o objeto u
 Um Construtor é um método especial que roda automaticamente quando uma classe é instanciada. Possui o mesmo nome da classe,  e pode receber parâmetros, MAS NÃO RETORNA VALORES (nem mesmo void!). Toda classe deve ter um construtor; se um não for escrito, o compilador gerará um automaticamente - um que não faz absolutamente nada.
 _______________________________________________________________________________________________________________________________________________________________________
   
+CAMOS COMATILHADOS EM CLASSES: Campos compartilhados em C# são variáveis que pertencem à classe em si, em vez de a uma instância específica da classe. Esses campos são declarados com a palavra-chave static, o que significa que todas as instâncias da classe compartilham o mesmo valor desse campo.
 
+Características dos Campos Compartilhados
+Um só valor: Apenas uma cópia do campo é criada, independentemente de quantas instâncias da classe existam. Qualquer modificação no campo estático afeta todas as instâncias.
+
+Acesso através da classe: Você acessa campos estáticos diretamente pela classe, não por instâncias. Por exemplo: ClasseNome.CampoEstático.
+
+Uso comum: Campos estáticos são frequentemente usados para contadores, constantes ou dados que devem ser compartilhados entre todas as instâncias.
+
+Exemplo Prático
+Aqui está um exemplo simples para ilustrar como os campos compartilhados funcionam:
+
+using System;
+
+namespace ExemploCamposCompartilhados
+{
+    internal class Contador
+    {
+        // Campo compartilhado (estático)
+        public static int totalContagens = 0;
+
+        public Contador()
+        {
+            // Incrementa o contador ao criar uma nova instância
+            totalContagens++;
+        }
+
+        public void ExibirTotalContagens()
+        {
+            Console.WriteLine("Total de instâncias: " + totalContagens);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Contador contador1 = new Contador();
+            contador1.ExibirTotalContagens(); // Exibe: Total de instâncias: 1
+
+            Contador contador2 = new Contador();
+            contador2.ExibirTotalContagens(); // Exibe: Total de instâncias: 2
+
+            Contador contador3 = new Contador();
+            contador3.ExibirTotalContagens(); // Exibe: Total de instâncias: 3
+        }
+    }
+}
+Explicação do Exemplo
+Classe Contador: Tem um campo estático totalContagens que conta quantas instâncias da classe foram criadas.
+Construtor: Cada vez que uma nova instância de Contador é criada, o construtor incrementa totalContagens.
+Método ExibirTotalContagens: Exibe o valor atual de totalContagens.
+Classe Program: No método Main, criamos três instâncias de Contador, e cada vez que uma nova instância é criada, o valor de totalContagens aumenta.
+Vantagens dos Campos Compartilhados
+Economia de Memória: Como há apenas uma cópia do campo, isso pode economizar memória em comparação com campos de instância.
+Facilidade de Compartilhamento: É fácil compartilhar dados entre diferentes instâncias da classe.
+Considerações
+Thread Safety: Se várias threads acessarem um campo estático simultaneamente, pode haver problemas de concorrência. Para evitar isso, técnicas de sincronização devem ser aplicadas.
+Uso Moderado: Campos estáticos devem ser usados com cautela, pois podem levar a acoplamentos indesejados entre diferentes partes do código.
 
 
