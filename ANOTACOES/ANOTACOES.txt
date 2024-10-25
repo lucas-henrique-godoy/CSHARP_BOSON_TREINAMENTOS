@@ -573,7 +573,7 @@ ________________________________________________________________________________
 
 INTERFACES GRÁFICAS EM C#:
 
-WINDOWS FORMS APPLICATION:Windows Forms é uma biblioteca de interface gráfica (GUI) para o desenvolvimento de aplicações desktop no Windows. Foi introduzida com o .NET Framework e permite que os desenvolvedores criem interfaces ricas usando arrastar e soltar controles em um designer visual. Algumas características incluem:
+WINDOWS FORMS APPLICATION: Windows Forms é uma biblioteca de interface gráfica (GUI) para o desenvolvimento de aplicações desktop no Windows. Foi introduzida com o .NET Framework e permite que os desenvolvedores criem interfaces ricas usando arrastar e soltar controles em um designer visual. Algumas características incluem:
 
 Facilidade de uso: A interface é simples, ideal para desenvolvedores que estão começando.
 Controles prontos: Possui uma vasta gama de controles (botões, caixas de texto, grids, etc.) que facilitam a criação de aplicativos.
