@@ -34,7 +34,8 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(488, 330);
+            BackColor = System.Drawing.SystemColors.Control;
+            ClientSize = new System.Drawing.Size(284, 261);
             Name = "frmInicial";
             Text = "Meu Aplicativo";
             ResumeLayout(false);
