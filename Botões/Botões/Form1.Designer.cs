@@ -51,6 +51,7 @@
             btnBotao02.TabIndex = 1;
             btnBotao02.Text = "Botão 02";
             btnBotao02.UseVisualStyleBackColor = true;
+            btnBotao02.Click += btnBotao02_Click;
             // 
             // Form1
             // 
