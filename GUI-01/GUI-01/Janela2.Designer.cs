@@ -28,18 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             SuspendLayout();
             // 
-            // Form2
+            // monthCalendar1
+            // 
+            monthCalendar1.Location = new System.Drawing.Point(29, 36);
+            monthCalendar1.Name = "monthCalendar1";
+            monthCalendar1.TabIndex = 0;
+            // 
+            // Janela2
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(284, 261);
-            Name = "Form2";
+            Controls.Add(monthCalendar1);
+            Name = "Janela2";
             Text = "Form2";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }

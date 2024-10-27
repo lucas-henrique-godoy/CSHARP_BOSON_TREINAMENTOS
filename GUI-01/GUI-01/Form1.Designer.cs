@@ -39,6 +39,8 @@
             Name = "frmInicial";
             Opacity = 0.8D;
             Text = "Meu Aplicativo";
+            Load += frmInicial_Load;
+            Click += frmInicial_Click;
             ResumeLayout(false);
         }
 
