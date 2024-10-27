@@ -1,6 +1,6 @@
 ﻿namespace GUI_01
 {
-    partial class Form2
+    partial class Janela2
     {
         /// <summary>
         /// Required designer variable.
