@@ -19,14 +19,16 @@ namespace Controle_TextBox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtEntrada.Focus(); // Define o foco no campo de entrada de texto, permitindo que o usuário comece a digitar imediatamente.
-            txtEntrada.Text = "Bóson Treinamentos"; // Define um texto fixo no TextBox de entrada.
+            txtEntrada.Clear(); // Limpa o texto do TextBox de entrada ao clicar.
+            //txtEntrada.Focus();  Define o foco no campo de entrada de texto, permitindo que o usuário comece a digitar imediatamente.
+            //txtEntrada.Text = "Bóson Treinamentos"; // Define um texto fixo no TextBox de entrada.
             // txtSaida.Text = txtEntrada.Text; // Exibe o mesmo texto no TextBox de saída (código comentado).
         }
 
         private void txtEntrada_TextChanged(object sender, EventArgs e)
         {
-            txtSaida.Text = txtEntrada.Text; // Atualiza o TextBox de saída conforme o texto do de entrada muda.
+            //txtSaida.Text = txtEntrada.Text; // Atualiza o TextBox de saída conforme o texto do de entrada muda.
+            
         }
 
         private void txtEntrada_Click(object sender, EventArgs e)

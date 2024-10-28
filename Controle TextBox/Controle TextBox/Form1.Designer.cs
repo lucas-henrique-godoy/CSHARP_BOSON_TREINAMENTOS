@@ -31,6 +31,7 @@
             txtEntrada = new System.Windows.Forms.TextBox();
             btnTeste = new System.Windows.Forms.Button();
             txtSaida = new System.Windows.Forms.TextBox();
+            button1 = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // txtEntrada
@@ -51,7 +52,7 @@
             // 
             // btnTeste
             // 
-            btnTeste.Location = new System.Drawing.Point(264, 74);
+            btnTeste.Location = new System.Drawing.Point(267, 23);
             btnTeste.Name = "btnTeste";
             btnTeste.Size = new System.Drawing.Size(95, 56);
             btnTeste.TabIndex = 1;
@@ -67,11 +68,21 @@
             txtSaida.Size = new System.Drawing.Size(177, 58);
             txtSaida.TabIndex = 2;
             // 
+            // button1
+            // 
+            button1.Location = new System.Drawing.Point(267, 120);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(95, 56);
+            button1.TabIndex = 3;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(634, 212);
+            Controls.Add(button1);
             Controls.Add(txtSaida);
             Controls.Add(btnTeste);
             Controls.Add(txtEntrada);
@@ -86,5 +97,6 @@
         private System.Windows.Forms.TextBox txtEntrada;
         private System.Windows.Forms.Button btnTeste;
         private System.Windows.Forms.TextBox txtSaida;
+        private System.Windows.Forms.Button button1;
     }
 }
