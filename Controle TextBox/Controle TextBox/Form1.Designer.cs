@@ -76,6 +76,7 @@
             btnColar.TabIndex = 3;
             btnColar.Text = "Colar";
             btnColar.UseVisualStyleBackColor = true;
+            btnColar.Click += btnColar_Click;
             // 
             // Form1
             // 

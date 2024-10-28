@@ -19,10 +19,11 @@ namespace Controle_TextBox
 
         private void btnTeste_Click(object sender, EventArgs e)
         {
-            txtEntrada.Clear(); // Limpa o texto do TextBox de entrada ao clicar.
-            //txtEntrada.Focus();  Define o foco no campo de entrada de texto, permitindo que o usuário comece a digitar imediatamente.
-            //txtEntrada.Text = "Bóson Treinamentos"; // Define um texto fixo no TextBox de entrada.
-            // txtSaida.Text = txtEntrada.Text; // Exibe o mesmo texto no TextBox de saída (código comentado).
+            txtEntrada.Copy();// O método Copy() é chamado para copiar o texto selecionado no controle para a área de transferência. Isso permite que o usuário cole esse texto em outro lugar, como em um documento ou outro campo de entrada.                              
+                              //txtEntrada.Clear(); // Limpa o texto do TextBox de entrada ao clicar.
+                              //txtEntrada.Focus();  Define o foco no campo de entrada de texto, permitindo que o usuário comece a digitar imediatamente.
+                              //txtEntrada.Text = "Bóson Treinamentos"; // Define um texto fixo no TextBox de entrada.
+                              // txtSaida.Text = txtEntrada.Text; // Exibe o mesmo texto no TextBox de saída (código comentado).
         }
 
         private void txtEntrada_TextChanged(object sender, EventArgs e)
@@ -41,6 +42,9 @@ namespace Controle_TextBox
             txtEntrada.Text = "Digite seu nome aqui"; // Exibe uma dica ao passar o mouse sobre o TextBox.
         }
 
-       
+        private void btnColar_Click(object sender, EventArgs e)
+        {
+            txtSaida.Paste(); // O método Paste() é chamado para colar o conteúdo que está atualmente na área de transferência
+        }
     }
 }
