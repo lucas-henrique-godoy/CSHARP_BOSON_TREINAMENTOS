@@ -32,5 +32,10 @@ namespace Controle_TextBox
         {
             txtEntrada.Text = ""; // Quando o usuário clicar no textbox o texto dentro é apagado.
         }
+
+        private void txtEntrada_MouseHover(object sender, EventArgs e)
+        {
+            txtEntrada.Text = "Digite seu nome aqui";// Quando o mouse passa em cima, exibe a mensagem.
+        }
     }
 }

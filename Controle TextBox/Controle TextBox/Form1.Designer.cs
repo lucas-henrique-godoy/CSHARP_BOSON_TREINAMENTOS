@@ -47,6 +47,7 @@
             txtEntrada.TabIndex = 0;
             txtEntrada.Click += txtEntrada_Click;
             txtEntrada.TextChanged += txtEntrada_TextChanged;
+            txtEntrada.MouseHover += txtEntrada_MouseHover;
             // 
             // btnTeste
             // 
