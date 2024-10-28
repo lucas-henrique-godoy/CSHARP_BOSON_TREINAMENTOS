@@ -17,7 +17,7 @@ namespace Controle_TextBox
             InitializeComponent(); // Inicializa os componentes do formulário.
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnTeste_Click(object sender, EventArgs e)
         {
             txtEntrada.Clear(); // Limpa o texto do TextBox de entrada ao clicar.
             //txtEntrada.Focus();  Define o foco no campo de entrada de texto, permitindo que o usuário comece a digitar imediatamente.
@@ -28,7 +28,7 @@ namespace Controle_TextBox
         private void txtEntrada_TextChanged(object sender, EventArgs e)
         {
             //txtSaida.Text = txtEntrada.Text; // Atualiza o TextBox de saída conforme o texto do de entrada muda.
-            
+
         }
 
         private void txtEntrada_Click(object sender, EventArgs e)
@@ -40,5 +40,7 @@ namespace Controle_TextBox
         {
             txtEntrada.Text = "Digite seu nome aqui"; // Exibe uma dica ao passar o mouse sobre o TextBox.
         }
+
+       
     }
 }
