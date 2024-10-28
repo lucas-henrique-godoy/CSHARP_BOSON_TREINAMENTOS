@@ -23,9 +23,9 @@ namespace Controle_TextBox
             //txtSaida.Text = txtEntrada.Text; // O que for digitado no TextBox1 sera mostrado tambem no Textox 2
         }
 
-        private void txtEntrada_TextChanged(object sender, EventArgs e)
+        private void txtEntrada_TextChanged(object sender, EventArgs e) //Método que é disparado quando o texto dentro do textbox é alterado.
         {
-            txtSaida.Text = txtEntrada.Text;
+            txtSaida.Text = txtEntrada.Text;// O que for escrito no txtEntrada será também exibido no txtSaida simultaneamente
         }
     }
 }
