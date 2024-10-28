@@ -19,8 +19,8 @@ namespace Controle_TextBox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //txtEntrada.Text = "Bóson Treinamentos"; -> Inserindo um texto no textbox(a propriedade text so aceita strings, as vezes é necessário fazer conversões. )
-            //txtSaida.Text = txtEntrada.Text; // O que for digitado no TextBox1 sera mostrado tambem no Textox 2
+            txtEntrada.Text = "Bóson Treinamentos"; //-> Inserindo um texto no textbox(a propriedade text so aceita strings, as vezes é necessário fazer conversões)
+            //txtSaida.Text = txtEntrada.Text;  O que for digitado no TextBox1 sera mostrado tambem no Textox 2
         }
 
         private void txtEntrada_TextChanged(object sender, EventArgs e) //Método que é disparado quando o texto dentro do textbox é alterado.
@@ -30,7 +30,7 @@ namespace Controle_TextBox
 
         private void txtEntrada_Click(object sender, EventArgs e)
         {
-            txtEntrada.Text = "";
+            txtEntrada.Text = ""; // Quando o usuário clicar no textbox o texto dentro é apagado.
         }
     }
 }
