@@ -27,5 +27,10 @@ namespace Controle_TextBox
         {
             txtSaida.Text = txtEntrada.Text;// O que for escrito no txtEntrada será também exibido no txtSaida simultaneamente
         }
+
+        private void txtEntrada_Click(object sender, EventArgs e)
+        {
+            txtEntrada.Text = "";
+        }
     }
 }

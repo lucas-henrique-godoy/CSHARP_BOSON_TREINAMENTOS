@@ -45,6 +45,7 @@
             txtEntrada.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             txtEntrada.Size = new System.Drawing.Size(177, 56);
             txtEntrada.TabIndex = 0;
+            txtEntrada.Click += txtEntrada_Click;
             txtEntrada.TextChanged += txtEntrada_TextChanged;
             // 
             // btnTeste
