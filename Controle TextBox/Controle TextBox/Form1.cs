@@ -14,28 +14,28 @@ namespace Controle_TextBox
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); // Inicializa os componentes do formulário.
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtEntrada.Text = "Bóson Treinamentos"; //-> Inserindo um texto no textbox(a propriedade text so aceita strings, as vezes é necessário fazer conversões)
-            //txtSaida.Text = txtEntrada.Text;  O que for digitado no TextBox1 sera mostrado tambem no Textox 2
+            txtEntrada.Text = "Bóson Treinamentos"; // Define um texto fixo no TextBox de entrada.
+            // txtSaida.Text = txtEntrada.Text; // Exibe o mesmo texto no TextBox de saída (código comentado).
         }
 
-        private void txtEntrada_TextChanged(object sender, EventArgs e) //Método que é disparado quando o texto dentro do textbox é alterado.
+        private void txtEntrada_TextChanged(object sender, EventArgs e)
         {
-            txtSaida.Text = txtEntrada.Text;// O que for escrito no txtEntrada será também exibido no txtSaida simultaneamente
+            txtSaida.Text = txtEntrada.Text; // Atualiza o TextBox de saída conforme o texto do de entrada muda.
         }
 
         private void txtEntrada_Click(object sender, EventArgs e)
         {
-            txtEntrada.Text = ""; // Quando o usuário clicar no textbox o texto dentro é apagado.
+            txtEntrada.Text = ""; // Limpa o texto do TextBox de entrada ao clicar.
         }
 
         private void txtEntrada_MouseHover(object sender, EventArgs e)
         {
-            txtEntrada.Text = "Digite seu nome aqui";// Quando o mouse passa em cima, exibe a mensagem.
+            txtEntrada.Text = "Digite seu nome aqui"; // Exibe uma dica ao passar o mouse sobre o TextBox.
         }
     }
 }
