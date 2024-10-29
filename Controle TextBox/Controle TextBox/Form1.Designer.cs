@@ -32,6 +32,8 @@
             btnTeste = new System.Windows.Forms.Button();
             txtSaida = new System.Windows.Forms.TextBox();
             btnColar = new System.Windows.Forms.Button();
+            btnOculta = new System.Windows.Forms.Button();
+            btnMostrar = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // txtEntrada
@@ -78,11 +80,33 @@
             btnColar.UseVisualStyleBackColor = true;
             btnColar.Click += btnColar_Click;
             // 
+            // btnOculta
+            // 
+            btnOculta.Location = new System.Drawing.Point(404, 23);
+            btnOculta.Name = "btnOculta";
+            btnOculta.Size = new System.Drawing.Size(95, 56);
+            btnOculta.TabIndex = 4;
+            btnOculta.Text = "Ocultar";
+            btnOculta.UseVisualStyleBackColor = true;
+            btnOculta.Click += btnOculta_Click;
+            // 
+            // btnMostrar
+            // 
+            btnMostrar.Location = new System.Drawing.Point(404, 118);
+            btnMostrar.Name = "btnMostrar";
+            btnMostrar.Size = new System.Drawing.Size(95, 56);
+            btnMostrar.TabIndex = 5;
+            btnMostrar.Text = "Mostrar";
+            btnMostrar.UseVisualStyleBackColor = true;
+            btnMostrar.Click += btnMostrar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(634, 212);
+            ClientSize = new System.Drawing.Size(613, 213);
+            Controls.Add(btnMostrar);
+            Controls.Add(btnOculta);
             Controls.Add(btnColar);
             Controls.Add(txtSaida);
             Controls.Add(btnTeste);
@@ -99,5 +123,7 @@
         private System.Windows.Forms.Button btnTeste;
         private System.Windows.Forms.TextBox txtSaida;
         private System.Windows.Forms.Button btnColar;
+        private System.Windows.Forms.Button btnOculta;
+        private System.Windows.Forms.Button btnMostrar;
     }
 }

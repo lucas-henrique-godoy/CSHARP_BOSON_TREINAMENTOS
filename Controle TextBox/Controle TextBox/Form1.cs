@@ -1,51 +1,60 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System; // Importa o namespace System, que contém classes fundamentais.
+using System.Collections.Generic; // Importa classes que definem coleções genéricas.
+using System.ComponentModel; // Importa classes que implementam interfaces para componentes.
+using System.Data; // Importa classes para trabalhar com dados.
+using System.Drawing; // Importa classes para trabalhar com gráficos.
+using System.Linq; // Importa classes para consultas em coleções.
+using System.Text; // Importa classes para manipulação de strings.
+using System.Threading.Tasks; // Importa classes para programação assíncrona.
+using System.Windows.Forms; // Importa classes para criar aplicativos de interface gráfica (Windows Forms).
 
-namespace Controle_TextBox
+namespace Controle_TextBox // Define um namespace para organizar o código.
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form // Declara a classe Form1, que herda de Form.
     {
-        public Form1()
+        public Form1() // Construtor da classe Form1.
         {
-            InitializeComponent(); // Inicializa os componentes do formulário.
+            InitializeComponent(); // Inicializa os componentes do formulário, como botões e caixas de texto.
         }
 
-        private void btnTeste_Click(object sender, EventArgs e)
+        private void btnTeste_Click(object sender, EventArgs e) // Manipulador de eventos para o botão de teste.
         {
-            txtEntrada.Cut(); // O método Cut() é chamado para remover o texto atualmente selecionado no controle e copiá-lo para a área de transferência. Isso permite que o usuário transfira o texto para outro lugar e também o remova do campo de entrada.
-            //txtEntrada.Copy();// O método Copy() é chamado para copiar o texto selecionado no controle para a área de transferência. Isso permite que o usuário cole esse texto em outro lugar, como em um documento ou outro campo de entrada.                              
+            txtEntrada.Cut(); // Remove o texto selecionado no TextBox e copia para a área de transferência.
+            //txtEntrada.Copy(); // Copia o texto selecionado para a área de transferência.
             //txtEntrada.Clear(); // Limpa o texto do TextBox de entrada ao clicar.
-            //txtEntrada.Focus();  Define o foco no campo de entrada de texto, permitindo que o usuário comece a digitar imediatamente.
+            //txtEntrada.Focus(); // Define o foco no campo de entrada, permitindo que o usuário digite.
             //txtEntrada.Text = "Bóson Treinamentos"; // Define um texto fixo no TextBox de entrada.
-            // txtSaida.Text = txtEntrada.Text; // Exibe o mesmo texto no TextBox de saída (código comentado).                    
+            //txtSaida.Text = txtEntrada.Text; // Copia o texto do TextBox de entrada para o de saída (código comentado).
         }
 
-        private void txtEntrada_TextChanged(object sender, EventArgs e)
+        private void txtEntrada_TextChanged(object sender, EventArgs e) // Manipulador de eventos para quando o texto muda.
         {
-            //txtSaida.Text = txtEntrada.Text; // Atualiza o TextBox de saída conforme o texto do de entrada muda.
-
+            //txtSaida.Text = txtEntrada.Text; // Atualiza o TextBox de saída com o texto do de entrada conforme muda.
         }
 
-        private void txtEntrada_Click(object sender, EventArgs e)
+        private void txtEntrada_Click(object sender, EventArgs e) // Manipulador de eventos para clique no TextBox de entrada.
         {
-            txtEntrada.Text = ""; // Limpa o texto do TextBox de entrada ao clicar.
+            txtEntrada.Text = ""; // Limpa o texto do TextBox ao clicar nele.
         }
 
-        private void txtEntrada_MouseHover(object sender, EventArgs e)
+        private void txtEntrada_MouseHover(object sender, EventArgs e) // Manipulador de eventos para quando o mouse passa sobre o TextBox.
         {
             txtEntrada.Text = "Digite seu nome aqui"; // Exibe uma dica ao passar o mouse sobre o TextBox.
         }
 
-        private void btnColar_Click(object sender, EventArgs e)
+        private void btnColar_Click(object sender, EventArgs e) // Manipulador de eventos para o botão de colar.
         {
-            txtSaida.Paste(); // O método Paste() é chamado para colar o conteúdo que está atualmente na área de transferência
+            txtSaida.Paste(); // Cola o conteúdo da área de transferência no TextBox de saída.
+        }
+
+        private void btnOculta_Click(object sender, EventArgs e) // Manipulador de eventos para o botão de ocultar.
+        {
+            txtSaida.Hide(); // Esconde o TextBox de saída.
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e) // Manipulador de eventos para o botão de mostrar.
+        {
+            txtSaida.Show(); // Exibe o TextBox de saída.
         }
     }
 }
