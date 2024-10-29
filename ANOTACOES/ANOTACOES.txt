@@ -696,6 +696,15 @@ No segundo código, o bloco catch para Exception é usado para tratar quaisquer 
 Considerações Finais
 Usar esses tipos de exceções permite que você escreva um código mais robusto e amigável ao usuário. Ao tratar especificamente as FormatException e OverflowException, você pode fornecer feedback mais direcionado, enquanto o tratamento genérico de Exception ajuda a cobrir casos imprevistos, garantindo que sua aplicação se comporte de maneira estável em diversas situações.
 
+JANELA DE ERROS LIST DO VISUAL STUDIO 2022:
+No Visual Studio 2022, a combinação de teclas Ctrl + Alt + E é usada para abrir a janela "Error List" (Lista de Erros). Essa janela exibe uma lista de erros, avisos e mensagens informativas sobre o seu projeto, permitindo que você veja rapidamente problemas de compilação, erros de código e outras notificações relevantes.
+
+Usos da Janela "Error List":
+Visualizar Erros: Mostra os erros de compilação e fornece detalhes sobre cada um deles.
+Navegação Rápida: Você pode clicar em um erro na lista para ir diretamente ao local do código onde o problema está.
+Filtros: A janela permite filtrar entre erros, avisos e mensagens, facilitando a identificação de problemas específicos.
+Essa funcionalidade é bastante útil para depurar e corrigir problemas em seu código de forma eficiente.
+
 
 
 
