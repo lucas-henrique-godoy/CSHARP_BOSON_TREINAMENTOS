@@ -596,7 +596,10 @@ Arquitetura: WPF promove uma separação melhor entre a lógica de negócios e a
 Essas duas tecnologias têm seu lugar, e a escolha entre elas geralmente depende dos requisitos específicos do projeto e das preferências dos desenvolvedores.
 _______________________________________________________________________________________________________________________________________________________________________
 
-TRATAMENTO DE EXCEÇÕES(Exception Handling): É difícil assegurar que um trecho de código sempre funcione como esperado; falhas podem ocorrer por inúmeras razões, muitas além de nosso controle. Por isso nossas aplicações devem ser capazes de detectar falhas e manipulá-las de forma a evitar maiores problemas.
+TRATAMENTO DE EXCEÇÕES(Exception Handling):
+É difícil assegurar que um trecho de código sempre funcione como esperado; falhas podem ocorrer por inúmeras razões, muitas além de nosso controle. Por isso nossas aplicações devem ser capazes de detectar falhas e manipulá-las de forma a evitar maiores problemas.
+
+GERENCIAMENTO DE ERROS:
 Para escrevermos programas que lidam com eventuais erros precisamos de duas coisas basicamente:
 1. Escrever o código dentro de um bloco try
 2. Escrever um ou mais manipuladores catch logo após o bloco try, para manipular as condições de erro.
