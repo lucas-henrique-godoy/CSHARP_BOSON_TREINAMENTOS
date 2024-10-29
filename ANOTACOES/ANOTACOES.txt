@@ -601,8 +601,10 @@ TRATAMENTO DE EXCEÇÕES(Exception Handling):
 
 GERENCIAMENTO DE ERROS:
 Para escrevermos programas que lidam com eventuais erros precisamos de duas coisas basicamente:
-1. Escrever o código dentro de um bloco try. Ou seja, devo escrever dentro do try todo código que eu desconfiar que possa apresentar algum tipo de problema em algum momento.
-2. Escrever um ou mais manipuladores catch logo após o bloco try, para manipular as condições de erro. Ou seja, os erros que você julga que possam vir a ocorrer(execeções)  
-3. Opcionalmente podemos usar um bloco finally para definirmos códigos que sempre serão executados.
+1. Escrever o código dentro de um bloco try. Ou seja, devo escrever dentro do try todo trecho de código que eu desconfiar que possa apresentar algum tipo de problema em algum momento.
+
+2. Escrever um ou mais manipuladores catch logo após o bloco try, para manipular as condições de erro. Ou seja, devo escrever dentro do catch os erros que eu julgar que possam vir a ocorrer(execeções), e os códigos para tratar os 
+  
+3. Opcionalmente podemos usar um bloco finally para definirmos códigos que sempre serão executados. Ou seja, devo escrever dentro do finally
 
 
