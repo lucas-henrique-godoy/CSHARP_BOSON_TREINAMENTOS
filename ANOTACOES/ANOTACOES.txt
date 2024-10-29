@@ -594,5 +594,8 @@ Facilidade de uso: Windows Forms é mais simples, enquanto WPF oferece mais cont
 Aparência: WPF permite uma personalização visual muito mais rica em comparação ao Windows Forms.
 Arquitetura: WPF promove uma separação melhor entre a lógica de negócios e a interface de usuário, facilitando a manutenção e a escalabilidade.
 Essas duas tecnologias têm seu lugar, e a escolha entre elas geralmente depende dos requisitos específicos do projeto e das preferências dos desenvolvedores.
+_______________________________________________________________________________________________________________________________________________________________________
+
+TRATAMENTO DE EXCEÇÕES: 
 
 
