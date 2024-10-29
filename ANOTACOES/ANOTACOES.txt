@@ -699,13 +699,13 @@ Usar esses tipos de exceções permite que você escreva um código mais robusto
 JANELA DE ERROS LIST DO VISUAL STUDIO 2022:
 No Visual Studio 2022, a combinação de teclas Ctrl + Alt + E é usada para abrir a janela "Error List" (Lista de Erros). Essa janela exibe uma lista de erros, avisos e mensagens informativas sobre o seu projeto, permitindo que você veja rapidamente problemas de compilação, erros de código e outras notificações relevantes.
 
-Usos da Janela "Error List":
+USOS DA JANELA "ERROR LIST":
 Visualizar Erros: Mostra os erros de compilação e fornece detalhes sobre cada um deles.
 Navegação Rápida: Você pode clicar em um erro na lista para ir diretamente ao local do código onde o problema está.
 Filtros: A janela permite filtrar entre erros, avisos e mensagens, facilitando a identificação de problemas específicos.
 Essa funcionalidade é bastante útil para depurar e corrigir problemas em seu código de forma eficiente.
 
-Existe também o site da Microsoft: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/using-exceptions. Que é uma parte da documentação oficial da Microsoft para a linguagem C#. Este artigo específico trata do uso de exceções em C# e cobre vários tópicos importantes sobre como trabalhar com exceções de maneira eficaz.
+EXISTE TAMBÉM O SITE DA MICROSOFT: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/using-exceptions. Que é uma parte da documentação oficial da Microsoft para a linguagem C#. Este artigo específico trata do uso de exceções em C# e cobre vários tópicos importantes sobre como trabalhar com exceções de maneira eficaz.
 
 
 
