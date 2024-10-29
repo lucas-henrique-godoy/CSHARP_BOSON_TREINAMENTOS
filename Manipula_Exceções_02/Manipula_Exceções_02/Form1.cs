@@ -28,15 +28,15 @@ namespace Manipula_Exceções_02
 
                 txtSaida.Text = resultado.ToString();
             }
-            catch (FormatException ex)
+            catch (FormatException ex) // Erros de formato 
             {
                 MessageBox.Show("Digite apenas valores numéricos", "Bloco catch");
             }
-            catch (OverflowException ex)
+            catch (OverflowException ex) // Erros de estouro
             {
                 MessageBox.Show(ex.Message, "Segundo bloco catch");
             }
-            catch (Exception ex)
+            catch (Exception ex) // Erros gerais e desconhecidos
             {
                 MessageBox.Show("Erro Desconhecido", "Terceiro bloco catch");
             }
