@@ -618,5 +618,30 @@ catch (Exceção Variável_ex)
 }
 
 
+EXEMPLO:
+ try
+{
+    // Tenta converter o texto da entrada em números inteiros
+    int num1 = int.Parse(txtEntrada1.Text); // Converte o texto do primeiro campo
+    int num2 = int.Parse(txtEntrada2.Text); // Converte o texto do segundo campo
+
+    // Realiza a multiplicação dos dois números
+    int resultado = num1 * num2;
+
+    // Exibe o resultado da multiplicação no campo de saída
+    txtSaida.Text = resultado.ToString();
+}
+catch (FormatException ex)
+{
+    // Captura exceções de formato (por exemplo, se o texto não puder ser convertido em número)
+    MessageBox.Show(ex.Message, "Bloco catch"); // Exibe uma mensagem de erro com detalhes
+}
+finally
+{
+    // Este bloco é sempre executado, independentemente de ocorrer um erro ou não
+    MessageBox.Show("Este bloco sempre será executado, independente de erros", "Bloco finally");
+}
+
+
 
 

@@ -24,9 +24,9 @@ namespace Manipula_Exceções_01
                 int num1 = int.Parse(txtEntrada1.Text);
                 int num2 = int.Parse(txtEntrada2.Text);
 
-                int multiplicacao = num1 * num2;
+                int resultado = num1 * num2;
 
-                txtSaida.Text = multiplicacao.ToString();
+                txtSaida.Text = resultado.ToString();
             }
             catch (FormatException ex)
             {
