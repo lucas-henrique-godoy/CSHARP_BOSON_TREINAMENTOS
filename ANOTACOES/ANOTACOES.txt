@@ -705,6 +705,8 @@ Navegação Rápida: Você pode clicar em um erro na lista para ir diretamente a
 Filtros: A janela permite filtrar entre erros, avisos e mensagens, facilitando a identificação de problemas específicos.
 Essa funcionalidade é bastante útil para depurar e corrigir problemas em seu código de forma eficiente.
 
+Existe também o site da Microsoft: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/using-exceptions. Que é uma parte da documentação oficial da Microsoft para a linguagem C#. Este artigo específico trata do uso de exceções em C# e cobre vários tópicos importantes sobre como trabalhar com exceções de maneira eficaz.
+
 
 
 
