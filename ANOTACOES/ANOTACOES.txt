@@ -607,4 +607,16 @@ Para escrevermos programas que lidam com eventuais erros precisamos de duas cois
   
 3. Opcionalmente podemos usar um bloco finally para definirmos códigos que sempre serão executados. Ou seja, devo escrever dentro do finally um código qualquer que vai sempre ser executado, independente do bloco try funcionar ou não. 
 
+SINTAXE:
+try
+{
+    // Código a ser executado
+}
+catch (Exceção Variável_ex)
+{
+    // Código para manipular a exceção
+}
+
+
+
 
