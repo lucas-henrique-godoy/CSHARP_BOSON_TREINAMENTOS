@@ -617,8 +617,9 @@ catch (Exceção Variável_ex)
     // Código para manipular a exceção
 }
 
+_______________________________________________________________________________________________________________________________________________________________________
 
-EXEMPLO:
+EXEMPLO 1 :
  try
 {
     // Tenta converter o texto da entrada em números inteiros
@@ -641,6 +642,61 @@ finally
     // Este bloco é sempre executado, independentemente de ocorrer um erro ou não
     MessageBox.Show("Este bloco sempre será executado, independente de erros", "Bloco finally");
 }
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+EXEMPLO 2:
+try
+{
+    // Tenta converter o texto da entrada em números inteiros
+    int num1 = int.Parse(txtEntrada1.Text); // Converte o texto do primeiro campo
+    int num2 = int.Parse(txtEntrada2.Text); // Converte o texto do segundo campo
+
+    // Realiza a multiplicação dos dois números
+    int resultado = num1 * num2;
+
+    // Exibe o resultado da multiplicação no campo de saída
+    txtSaida.Text = resultado.ToString();
+}
+catch (FormatException ex) // Captura erros de formato
+{
+    // Exibe uma mensagem se o texto não puder ser convertido em número
+    MessageBox.Show("Digite apenas valores numéricos", "Bloco catch");
+}
+catch (OverflowException ex) // Captura erros de estouro
+{
+    // Exibe uma mensagem se a operação resultar em um número fora do intervalo permitido
+    MessageBox.Show(ex.Message, "Segundo bloco catch");
+}
+catch (Exception ex) // Captura erros gerais e desconhecidos
+{
+    // Exibe uma mensagem para qualquer outra exceção não tratada
+    MessageBox.Show("Erro Desconhecido", "Terceiro bloco catch");
+}
+finally
+{
+    // Este bloco é sempre executado, independentemente de ocorrer um erro ou não
+    MessageBox.Show("Este bloco sempre será executado, independente de erros", "Bloco finally");
+}
+
+
+OBS: Vamos analisar os tipos de exceções usadas nos códigos.
+1. FormatException
+O que é: Esta exceção é lançada quando a conversão de uma string para um tipo numérico (como int) falha devido ao formato inadequado. Por exemplo, se o usuário tentar converter a string "abc" em um número, uma FormatException será gerada.
+Uso nos Códigos:
+No primeiro e no segundo código, o bloco catch para FormatException exibe uma mensagem pedindo para o usuário digitar apenas valores numéricos, ajudando a evitar erros ao tentar realizar operações com entradas inválidas.
+2. OverflowException
+O que é: Esta exceção é lançada quando uma operação aritmética resulta em um valor que está fora do intervalo permitido para o tipo de dado. Por exemplo, ao multiplicar dois inteiros que resultam em um número maior do que int.MaxValue (o maior valor que um int pode armazenar), uma OverflowException será gerada.
+Uso nos Códigos:
+No segundo código, o bloco catch para OverflowException captura essa situação e exibe uma mensagem informativa com os detalhes do erro. Isso é importante para informar ao usuário que o resultado da operação não pode ser representado como um inteiro.
+3. Exception
+O que é: Esta é a classe base para todas as exceções em C#. Quando você captura uma Exception, está capturando qualquer tipo de exceção que não tenha sido tratada por blocos catch anteriores. Isso inclui exceções específicas e não específicas.
+Uso nos Códigos:
+No segundo código, o bloco catch para Exception é usado para tratar quaisquer erros que não foram previstos pelos blocos anteriores. Isso garante que o programa não falhe abruptamente, oferecendo ao usuário uma mensagem genérica de erro para situações inesperadas.
+Considerações Finais
+Usar esses tipos de exceções permite que você escreva um código mais robusto e amigável ao usuário. Ao tratar especificamente as FormatException e OverflowException, você pode fornecer feedback mais direcionado, enquanto o tratamento genérico de Exception ajuda a cobrir casos imprevistos, garantindo que sua aplicação se comporte de maneira estável em diversas situações.
+
+
 
 
 
