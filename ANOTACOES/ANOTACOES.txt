@@ -596,6 +596,6 @@ Arquitetura: WPF promove uma separação melhor entre a lógica de negócios e a
 Essas duas tecnologias têm seu lugar, e a escolha entre elas geralmente depende dos requisitos específicos do projeto e das preferências dos desenvolvedores.
 _______________________________________________________________________________________________________________________________________________________________________
 
-TRATAMENTO DE EXCEÇÕES: 
+TRATAMENTO DE EXCEÇÕES(Exception Handling): 
 
 
