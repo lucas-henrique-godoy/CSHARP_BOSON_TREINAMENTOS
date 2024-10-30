@@ -710,7 +710,7 @@ ________________________________________________________________________________
 
 ENUMERAÇÕES(Enums): Uma enumeração é um tipo de dados cujos valores são limitados a um conjunto de nomes simbólicos. Por exemplo, podemos criar uma enumeração cujos valores sejam os meses do ano. Esses valores são chamados de elementos ou membros.
 
-DECLARAÇÃO DE ENUMERAÇÕES: Definimos ua enumeração com o uso da palavra enum:
+DECLARAÇÃO DE ENUMERAÇÕES: Definimos uma enumeração com o uso da palavra enum:
 SINTAXE: enum nome enumeração { elemento1, elemento2, ..., elementoN}
 
 EXEMPLO:
@@ -721,6 +721,15 @@ OBS: É um tipo de dado que você usa para limitar o conjunto de valores em uma 
 OBS2: O enum Mes é um tipo de dado que representa um conjunto fixo de valores, neste caso, os meses do ano. Ao declarar uma variável do tipo Mes, ela só pode assumir um dos valores definidos (Janeiro, Fevereiro, Março, etc.), o que ajuda a garantir a integridade e a legibilidade do código.
 
 USANDO UMA ENUMERÇÃO: Após declarar uma enumeração podemos usá-la da mesma forma como usamos qualquer outro tipo de dados. Podemos criar variáveis do tipo enum, campos em classes e parâmetros em métodos.
+
+CRIANDO UMA ENUMERAÇÃO: Vamos criar uma enumeração chamada PontoCardeal que aceitará os valores Norte, Sul, Leste e Oeste:
+
+enum PontoCardeal { Norte, Sul, Leste, Oeste };
+static void Main(string[]args)
+{
+  PontCardeal. // Operador ponto para mostrar valores válidos no tipo criado
+}
+
 
 
 
