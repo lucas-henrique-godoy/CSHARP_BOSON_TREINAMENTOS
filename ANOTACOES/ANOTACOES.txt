@@ -706,7 +706,9 @@ Filtros: A janela permite filtrar entre erros, avisos e mensagens, facilitando a
 Essa funcionalidade é bastante útil para depurar e corrigir problemas em seu código de forma eficiente.
 
 EXISTE TAMBÉM O SITE DA MICROSOFT: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/exceptions/using-exceptions. Que é uma parte da documentação oficial da Microsoft para a linguagem C#. Este artigo específico trata do uso de exceções em C# e cobre vários tópicos importantes sobre como trabalhar com exceções de maneira eficaz.
+_______________________________________________________________________________________________________________________________________________________________________
 
+ENUMERAÇÕES(Enums): Uma enumeração é um tipo de dados cujos valores são limitados a um conjunto de nomes simbólicos. Por exemplo, podemos criar uma enumeração cujos valores sejam os meses do ano. Esses valores são chamados de elementos ou membros.
 
 
 
