@@ -710,6 +710,13 @@ ________________________________________________________________________________
 
 ENUMERAÇÕES(Enums): Uma enumeração é um tipo de dados cujos valores são limitados a um conjunto de nomes simbólicos. Por exemplo, podemos criar uma enumeração cujos valores sejam os meses do ano. Esses valores são chamados de elementos ou membros.
 
+DECLARAÇÃO DE ENUMERAÇÕES: Definimos ua enumeração com o uso da palavra enum:
+SINTAXE: enum nome enumeração { elemento1, elemento2, ..., elementoN}
+
+EXEMPLO:
+enum Mês { Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro }
+
+
 
 
 
