@@ -720,6 +720,8 @@ OBS: É um tipo de dado que você usa para limitar o conjunto de valores em uma 
 
 OBS2: O enum Mes é um tipo de dado que representa um conjunto fixo de valores, neste caso, os meses do ano. Ao declarar uma variável do tipo Mes, ela só pode assumir um dos valores definidos (Janeiro, Fevereiro, Março, etc.), o que ajuda a garantir a integridade e a legibilidade do código.
 
+USANDO UMA ENUMERÇÃO: Após declarar uma enumeração podemos usá-la da mesma forma como usamos qualquer outro tipo de dados. Podemos criar variáveis do tipo enum, campos em classes e parâmetros em métodos.
+
 
 
 
