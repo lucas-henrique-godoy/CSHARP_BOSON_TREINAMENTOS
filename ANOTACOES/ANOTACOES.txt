@@ -716,6 +716,8 @@ SINTAXE: enum nome enumeração { elemento1, elemento2, ..., elementoN}
 EXEMPLO:
 enum Mes { Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro }
 
+OBS: É um tipo de dado que você usa para limitar o conjunto de valores em uma variável qualquer, ou seja no caso acima só irá aceitar atribuir a variável Mes os valores de nomes dos meses que foram definidos.
+
 
 
 
