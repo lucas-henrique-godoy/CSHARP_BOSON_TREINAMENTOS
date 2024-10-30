@@ -718,6 +718,8 @@ enum Mes { Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setemb
 
 OBS: É um tipo de dado que você usa para limitar o conjunto de valores em uma variável qualquer, ou seja no caso acima só irá aceitar atribuir a variável Mes os valores de nomes dos meses que foram definidos.
 
+OBS2: O enum Mes é um tipo de dado que representa um conjunto fixo de valores, neste caso, os meses do ano. Ao declarar uma variável do tipo Mes, ela só pode assumir um dos valores definidos (Janeiro, Fevereiro, Março, etc.), o que ajuda a garantir a integridade e a legibilidade do código.
+
 
 
 
