@@ -13,8 +13,7 @@ namespace Enumerações
 
             // Mostrando o índice da posição do valor Norte dentro da enumeração PontoCardeal
             PontoCardeal direcao1 = PontoCardeal.Norte;
-            Console.WriteLine("Ponto cardeal: " + (int)direcao1);
-            
+            Console.WriteLine("Ponto cardeal: " + (int)direcao1);            
         }
     }
 }
