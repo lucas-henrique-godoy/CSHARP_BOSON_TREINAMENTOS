@@ -730,6 +730,11 @@ static void Main(string[]args)
   PontCardeal. // Operador ponto para mostrar valores válidos no tipo criado
 }
 
+ATRIBUIÇÃO DE VALORES A TIPOS ENUM: Antes de podermos ler o valor de uma variável do tipo enum devemos atribuir-lhe um valor. Porém,  somente podemos atribuir valores que façam parte do conjunto de valores definidos para o tipo enum especificado.
+Exemplo:
+ PontoCardeal direcao1 = PontoCardeal.Norte;
+ Console.WriteLine("Ponto cardeal: " + direcao );
+
 
 
 
