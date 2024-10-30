@@ -4,7 +4,7 @@ namespace Enumerações
 {
     internal class Program
     {
-        //enum PontoCardeal { Norte = 10, Sul, Leste, Oeste }; // Definindo uma enumeração chamada PontoCardeal com valores Norte, Sul, Leste e Oeste, onde Norte começa em 10 e os demais valores são incrementais.
+        // Definindo uma enumeração chamada PontoCardeal com valores Norte (10), Sul, Leste, Este (igual a Leste) e Oeste, onde os valores são incrementais a partir de 10.
         enum PontoCardeal { Norte, Sul, Leste, Oeste };
         static void Main(string[] args)
         {
