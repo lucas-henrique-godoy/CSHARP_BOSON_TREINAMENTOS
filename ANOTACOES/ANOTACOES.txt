@@ -714,7 +714,7 @@ DECLARAÇÃO DE ENUMERAÇÕES: Definimos ua enumeração com o uso da palavra en
 SINTAXE: enum nome enumeração { elemento1, elemento2, ..., elementoN}
 
 EXEMPLO:
-enum Mês { Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro }
+enum Mes { Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro }
 
 
 
