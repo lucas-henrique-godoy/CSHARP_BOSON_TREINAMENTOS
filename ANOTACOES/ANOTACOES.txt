@@ -736,11 +736,16 @@ Exemplo:
  Console.WriteLine("Ponto cardeal: " + direcao );
 
 
-ÍNDEICES DA ENUMERAÇÃO  TIPO SUBJACENTE: Internamente, uma enumeração associa um valor inteiro com cada um dos elementos da enumeração. A enumeração começa em 0 (primeiro elemento) e é incrementada de um em um a cada elemento subsequente.
+ÍNDICES DA ENUMERAÇÃO  TIPO SUBJACENTE: Internamente, uma enumeração associa um valor inteiro com cada um dos elementos da enumeração. A enumeração começa em 0 (primeiro elemento) e é incrementada de um em um a cada elemento subsequente.
 Esse valor valor é chamado de literal da enumeração. Podemos obter o valor inteiro de um elemento qualquer basta converter o elemento para o tipo int:
 enum PontCardeal { Norte, Sul, Leste, Oeste };
 PontoCardeal direcao = PontoCardeal.Oeste;
 Console.WriteLine("Ponto Cardeal: " + (int)direcao);
+
+OUTRO EXEMPLO: 
+enum PontoCardeal { Norte = 10, Sul, Leste, Este = Leste, Oeste }; // Definindo uma enumeração chamada PontoCardeal com valores Norte (10), Sul, Leste, Este (igual a Leste, ou seja tano faz chamar Este ou Leste) e Oeste, onde os valores são incrementais a partir de 10.
+
+ALTERANDO O TIPO SUBJACENTE: Quando uma enumeração é declarada, os literais recebem valores do tipo int. Porém, podemos basear nossa enumeração em um tipo diferente para os literais. Por exemplo, se quisermos usar i tipo short em vez de int:
 
 
 
