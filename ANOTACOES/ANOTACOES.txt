@@ -732,9 +732,15 @@ static void Main(string[]args)
 
 ATRIBUIÇÃO DE VALORES A TIPOS ENUM: Antes de podermos ler o valor de uma variável do tipo enum devemos atribuir-lhe um valor. Porém,  somente podemos atribuir valores que façam parte do conjunto de valores definidos para o tipo enum especificado.
 Exemplo:
- PontoCardeal direcao1 = PontoCardeal.Norte;
+ PontoCardeal direcao = PontoCardeal.Norte;
  Console.WriteLine("Ponto cardeal: " + direcao );
 
+
+ÍNDEICES DA ENUMERAÇÃO  TIPO SUBJACENTE: Internamente, uma enumeração associa um valor inteiro com cada um dos elementos da enumeração. A enumeração começa em 0 (primeiro elemento) e é incrementada de um em um a cada elemento subsequente.
+Esse valor valor é chamado de literal da enumeração. Podemos obter o valor inteiro de um elemento qualquer basta converter o elemento para o tipo int:
+enum PontCardeal { Norte, Sul, Leste, Oeste };
+PontoCardeal direcao = PontoCardeal.Oeste;
+Console.WriteLine("Ponto Cardeal: " + (int)direcao);
 
 
 
