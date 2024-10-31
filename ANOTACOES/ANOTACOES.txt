@@ -851,6 +851,34 @@ class ClasseDerivada : ClasseBase
 
 A classe derivada herda da classe base, e os métodos da classe base se tornam parte da classe derivada. Em C# uma classe pode derivar no máximo de uma classe base. Mas uma classe pode derivar de uma classe já derivada de outra.
 
+EXEMPLO: CLASSE BASE
+class Mamifero
+{
+    public void Respirar()
+    { 
+    
+    }
+    public void Mamar()
+    {
+
+    }
+}
+
+EXEMPLO: CLASSE DERIVADA
+class Humano: Mamifero
+{
+    public void Falar()
+    {
+
+    }
+}
+class Gato : Mamifero
+{
+    public void Arranhar()
+    {
+
+    }
+}
 
 
 
