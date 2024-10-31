@@ -770,7 +770,7 @@ struct Horário
 }
 
 USANDO:
-horário agora;
+Horário agora;
 agora.hora = 10;
 agora.minuto = 30;
 Console.WriteLine("Horário: {0}:{1}", agora.hora, agora.minuto);
