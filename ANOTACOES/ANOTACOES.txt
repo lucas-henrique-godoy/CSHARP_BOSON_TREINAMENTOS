@@ -429,7 +429,7 @@ Quando usamos a palavra new para criar um objeto, o runtime constrói o objeto u
 Um Construtor é um método especial que roda automaticamente quando uma classe é instanciada. Possui o mesmo nome da classe,  e pode receber parâmetros, MAS NÃO RETORNA VALORES (nem mesmo void!). Toda classe deve ter um construtor; se um não for escrito, o compilador gerará um automaticamente - um que não faz absolutamente nada.
 _______________________________________________________________________________________________________________________________________________________________________
   
-CAMOS COMATILHADOS EM CLASSES: Campos compartilhados em C# são variáveis que pertencem à classe em si, em vez de a uma instância específica da classe. Esses campos são declarados com a palavra-chave static, o que significa que todas as instâncias da classe compartilham o mesmo valor desse campo.
+CAMPOS COMATILHADOS EM CLASSES: Campos compartilhados em C# são variáveis que pertencem à classe em si, em vez de a uma instância específica da classe. Esses campos são declarados com a palavra-chave static, o que significa que todas as instâncias da classe compartilham o mesmo valor desse campo.
 
 Características dos Campos Compartilhados
 Um só valor: Apenas uma cópia do campo é criada, independentemente de quantas instâncias da classe existam. Qualquer modificação no campo estático afeta todas as instâncias.
@@ -774,6 +774,24 @@ Horário agora; // Criando uma variável do tipo Horário chamada agora, e essa 
 agora.hora = 10;
 agora.minuto = 30;
 Console.WriteLine("Horário: {0}:{1}", agora.hora, agora.minuto);
+
+
+OUTRO EXEMPLO:
+struct Horário
+{
+    private int hora, minuto, segundo;
+    public Horário(int h, int m, int s)
+    {
+        this.hora = h % 24;
+        this.minuto = m % 60;
+        this.segundo = s % 60;
+   }
+   
+   public int Hora()
+   {
+     return this.hora;
+   }   
+}
 
 
 
