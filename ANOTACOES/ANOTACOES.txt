@@ -779,8 +779,9 @@ Console.WriteLine("Horário: {0}:{1}", agora.hora, agora.minuto);
 OUTRO EXEMPLO:
 struct Horario
 {
-    private int hora, minuto, segundo; 
-    public Horário(int h, int m, int s) 
+    private int hora, minuto, segundo;  // não é possível declarar e inicializar os valores da struct, é necessário criar um método construtor para isso ⬇️⬇️⬇️
+
+    public Horário(int h, int m, int s) // Método construtor para inicializar os valores
     {
         this.hora = h % 24;
         this.minuto = m % 60;
