@@ -777,10 +777,10 @@ Console.WriteLine("Horário: {0}:{1}", agora.hora, agora.minuto);
 
 
 OUTRO EXEMPLO:
-struct Horário
+struct Horario
 {
-    private int hora, minuto, segundo;
-    public Horário(int h, int m, int s)
+    private int hora, minuto, segundo; 
+    public Horário(int h, int m, int s) 
     {
         this.hora = h % 24;
         this.minuto = m % 60;
@@ -792,6 +792,57 @@ struct Horário
      return this.hora;
    }   
 }
+
+
+Estrutura Horario
+Definição da Estrutura:
+
+csharp
+Copiar código
+struct Horario
+Aqui, você está definindo uma estrutura chamada Horario. Em C#, uma estrutura é um tipo de valor que pode conter dados e comportamentos (métodos).
+
+Atributos Privados:
+
+csharp
+Copiar código
+private int hora, minuto, segundo;
+Existem três variáveis privadas: hora, minuto e segundo. Elas são usadas para armazenar os componentes de um horário.
+
+Construtor:
+
+csharp
+Copiar código
+public Horario(int h, int m, int s)
+{
+    this.hora = h % 24;        
+    this.minuto = m % 60;
+    this.segundo = s % 60;
+}
+
+
+OBS: O operador this é utilizado para acessar um campo que pertence a própria estrutura.
+
+O construtor Horario inicializa os valores de hora, minuto e segundo. Ele utiliza o operador módulo (%) para garantir que:
+
+hora esteja no intervalo de 0 a 23 (por isso h % 24).
+minuto e segundo estejam no intervalo de 0 a 59.
+Método Hora:
+
+csharp
+Copiar código
+public int Hora()
+{
+    return this.hora;
+}
+Este método público retorna o valor da variável hora. É uma maneira de acessar o valor de hora, já que ela é privada e não pode ser acessada diretamente fora da estrutura.
+
+Observações
+Nomenclatura: Você usou Horário em vez de Horario no construtor, o que resultaria em um erro. O nome deve ser exatamente o mesmo que o da estrutura (Horario).
+
+Métodos Adicionais: Para um uso mais completo, você poderia adicionar métodos semelhantes para obter minuto e segundo.
+
+Validação: Poderia ser interessante adicionar validações para garantir que os valores de hora, minuto e segundo sejam válidos (por exemplo, hora não deve ser negativa).
 
 
 
