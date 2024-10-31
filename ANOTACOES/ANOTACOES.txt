@@ -821,8 +821,6 @@ hora esteja no intervalo de 0 a 23 (por isso h % 24).
 minuto e segundo estejam no intervalo de 0 a 59.
 Método Hora:
 
-csharp
-Copiar código
 public int Hora()
 {
     return this.hora;
