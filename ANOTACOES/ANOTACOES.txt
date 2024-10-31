@@ -794,25 +794,16 @@ struct Horario
 }
 
 
-Estrutura Horario
+EXPLICAÇÃO DA ESTRUTURA HORARIO
 Definição da Estrutura:
-
-csharp
-Copiar código
 struct Horario
 Aqui, você está definindo uma estrutura chamada Horario. Em C#, uma estrutura é um tipo de valor que pode conter dados e comportamentos (métodos).
 
 Atributos Privados:
-
-csharp
-Copiar código
 private int hora, minuto, segundo;
 Existem três variáveis privadas: hora, minuto e segundo. Elas são usadas para armazenar os componentes de um horário.
 
 Construtor:
-
-csharp
-Copiar código
 public Horario(int h, int m, int s)
 {
     this.hora = h % 24;        
