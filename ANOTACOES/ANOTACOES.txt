@@ -837,7 +837,7 @@ Métodos Adicionais: Para um uso mais completo, você poderia adicionar métodos
 Validação: Poderia ser interessante adicionar validações para garantir que os valores de hora, minuto e segundo sejam válidos (por exemplo, hora não deve ser negativa).
 _______________________________________________________________________________________________________________________________________________________________________
 
-HERANÇA(inheritance): 
+HERANÇA(inheritance): Herança é um conceito extremamente importante em Orientação a Objetos. Usamos a herança, por exemplo, para evitar repetição ao definirmos classes com características em comum e são relacionadas entre si. A herança é u relacionamento entre classes, que permite que uma classe "adquira" os membros de outra classe.
 
 
 
