@@ -16,7 +16,5 @@ namespace Estruturas_Structures
         {
             public int hora, minuto, segundo;
         }
-
-
     }
 }
