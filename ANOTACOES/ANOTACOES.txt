@@ -751,7 +751,7 @@ enum PontoCardeal : short { Norte, Sul, Leste, Oeste };
 A vantagem aqui é a economia de memória: o tipo short ocupa apenas 16 bits, contra 32 do tipo padrão int. Os tipos inteiros disponíveis para essa operação são: byte, sbyte, short, ushort, int, uint, long e ulong.
 _______________________________________________________________________________________________________________________________________________________________________
 
-ESTRUTURAS(STRUCTS): As classes definem tipos de referência que são armazenados no heap. Se uma classe contiver poucos dados haverá um grande overhead(sobrecarga) no gerenciamento do heap. Uma classe usa então duas áreas de memória para armazenar dados(pilha e o heap). Nesses casos, podemos utilizar uma estrutura que utiliza apenas uma área de memória.
+ESTRUTURAS(STRUCTS): As classes definem tipos de referência que são armazenados no heap. Se uma classe contiver poucos dados haverá um grande overhead(sobrecarga) no gerenciamento do heap. Uma classe usa então duas áreas de memória para armazenar dados(pilha e o heap). Nesses casos, onde você precisa criar uma classe, mas que armazene poucos dados,  podemos utilizar uma estrutura que utiliza apenas uma área de memória.
 
 
 
