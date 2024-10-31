@@ -757,6 +757,12 @@ OBS: A variável de estrutura armazena diretamente os dados, ao passo que uma cl
 
 TIPOS DE ESTRUTURAS COMUNS: Usamos estruturas na maior parte do tempo: os tipos numéricos primitivos int, long e float são aliases(apelidos) para as estruturas System.Int32, System.Int64 e System.Single. Estas estruturas possuem campos e métodos que podem ser chamados em variáveis desses tipos.O exemplo mais clássico é o método ToString. Outro exemplo são os campos MaxValue e MinValue de Int32.
 
+DECLARANDO UMA ESTRUTURA:
+struct NOME_STRUCT
+{
+  corpo da estrutura(campos e métodos);
+}
+
 
 
 
