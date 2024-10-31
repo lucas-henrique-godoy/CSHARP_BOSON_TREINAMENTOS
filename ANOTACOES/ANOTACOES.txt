@@ -763,6 +763,19 @@ struct NOME_STRUCT
   corpo da estrutura(campos e métodos);
 }
 
+EXEMPLO DE DECLARAÇÃO:
+struct Horário
+{
+  public int hora, minuto, segundo;
+}
+
+USANDO:
+horário agora;
+agora.hora = 10;
+agora.minuto = 30;
+Console.WriteLine("Horário: {0}:{1}", agora.hora, agora.minuto);
+
+
 
 
 
