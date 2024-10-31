@@ -755,7 +755,7 @@ ESTRUTURAS(STRUCTS): As classes definem tipos de referência que são armazenado
 Estruturas em C# são usadas para criar tipos de valor,  e por isso são armazenadas na stack(pilha). Sendo assim, o overhead de gerenciamento de memória pode ser bastante reduzido. Uma estrutura pode ter campos, métodos e até mesmo construtores (com algumas limitações).
 OBS: A variável de estrutura armazena diretamente os dados, ao passo que uma classe armazena uma referência da pilha á área de memória que contém os dados armazenados no heap. Ou seja, basicamente a Estrutura economiza memória.
 
-TIPOS DE ESTRUTURAS COMUNS: Usamos estruturas na maior parte do tempo: os tipos numéricos primitivos int, long e float são aliases para as estruturas System.Int32, System.Int64 e System.Single. Estas estruturas possuem campos e métodos que podem ser chamados em variáveis desses tipos.O exemplo mais clássico é o método método ToString. Outro exemplo são os campos MaxValue e MinValue de Int32.
+TIPOS DE ESTRUTURAS COMUNS: Usamos estruturas na maior parte do tempo: os tipos numéricos primitivos int, long e float são aliases(apelidos) para as estruturas System.Int32, System.Int64 e System.Single. Estas estruturas possuem campos e métodos que podem ser chamados em variáveis desses tipos.O exemplo mais clássico é o método método ToString. Outro exemplo são os campos MaxValue e MinValue de Int32.
 
 
 
