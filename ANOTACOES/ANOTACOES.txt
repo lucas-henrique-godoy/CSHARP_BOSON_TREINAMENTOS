@@ -843,7 +843,13 @@ Podemos criar classes distintas para cada animal, mas essas classes teriam muito
 
 Podemos então criar uma classe chamada Mamífero(generalista) que possua as funcionalidades comuns a todos os animais mamíferos, e então criar as classes Humano, Baleia e Gato herdando essas funcionalidades específicas de cada animal, como Falar, Nadar e Arranhar.
 
+DECLARANDO A HERANÇA: 
+class ClasseDerivada : ClasseBase
+{
+  Código da classe
+}
 
+A classe derivada herda da classe base, e os métodos da classe base se tornam parte da classe derivada. Em C# uma classe pode derivar no máximo de uma classe base. Mas uma classe pode derivar de uma classe já derivada de outra.
 
 
 
