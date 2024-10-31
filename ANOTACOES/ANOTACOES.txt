@@ -740,7 +740,7 @@ Exemplo:
 Esse valor valor é chamado de literal da enumeração. Podemos obter o valor inteiro de um elemento qualquer basta converter o elemento para o tipo int:
 enum PontCardeal { Norte, Sul, Leste, Oeste };
 PontoCardeal direcao = PontoCardeal.Oeste;
-Console.WriteLine("Ponto Cardeal: " + (int)direcao);
+Console.WriteLine("Ponto Cardeal: " + (int)direcao);s
 
 OUTRO EXEMPLO: 
 enum PontoCardeal { Norte = 10, Sul, Leste, Este = Leste, Oeste }; // Definindo uma enumeração chamada PontoCardeal com valores Norte (10), Sul, Leste, Este (igual a Leste, ou seja tano faz chamar Este ou Leste) e Oeste, onde os valores são incrementais a partir de 10.
@@ -749,7 +749,9 @@ ALTERANDO O TIPO SUBJACENTE: Quando uma enumeração é declarada, os literais r
 enum PontoCardeal : short { Norte, Sul, Leste, Oeste };
 
 A vantagem aqui é a economia de memória: o tipo short ocupa apenas 16 bits, contra 32 do tipo padrão int. Os tipos inteiros disponíveis para essa operação são: byte, sbyte, short, ushort, int, uint, long e ulong.
+_______________________________________________________________________________________________________________________________________________________________________
 
+ESTRUTURAS(STRUCTS): As classes definem tipos de referência que são armazenados no heap. Se uma classe contiver poucos dados haverá um grande overhead no gerenciamento do heap. Uma classe usa então duas áreas de memória para armazenar dados. Nesses casos, podemos utilizar uma estrutura que utiliza apenas uma área de memória.
 
 
 
