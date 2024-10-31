@@ -836,8 +836,12 @@ Validação: Poderia ser interessante adicionar validações para garantir que o
 _______________________________________________________________________________________________________________________________________________________________________
 
 HERANÇA(inheritance): Herança é um conceito extremamente importante em Orientação a Objetos. Usamos a herança, por exemplo, para evitar repetição ao definirmos classes com características em comum e são relacionadas entre si. A herança é um relacionamento entre classes, que permite que uma classe "adquira" os membros de outra classe.
+
 Um exemplo clássico de herança seria a classificação de mamíferos no reino animal. Homens, Baleias e Gatos são mamíferos, que compartilham muitas características entre si, mas claramente possuem atributos que os diferem uns dos outros. Como podemos modelar Baleias, Gatos e Humanos em um software?
+
 Podemos criar classes distintas para cada animal, mas essas classes teriam muitos comportamento ("métodos") em comum entre eles, como Respirar, Mamar e Reproduzir-se, o que ocasionaria repetição desnecessária de código. Usamos então Herança para resolver esse problema.
+
+Podemos então criar uma classe chamada Mamífero que possua as funcionalidades comuns a todos os animais mamíferos, e então criar as classes Humano, Baleia e Gato herdando essas funcionalidades específicas de cada animal, como Falar, Nadar e Arranhar.
 
 
 
