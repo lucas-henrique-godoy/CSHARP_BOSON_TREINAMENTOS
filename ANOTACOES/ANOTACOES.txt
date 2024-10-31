@@ -770,7 +770,7 @@ struct Horário
 }
 
 USANDO:
-Horário agora;
+Horário agora; // Criando uma variável do tipo Horário chamada agora, e essa variável vai ter acesso aos campos da struct.
 agora.hora = 10;
 agora.minuto = 30;
 Console.WriteLine("Horário: {0}:{1}", agora.hora, agora.minuto);
