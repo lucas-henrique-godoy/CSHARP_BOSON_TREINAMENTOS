@@ -754,6 +754,7 @@ ________________________________________________________________________________
 ESTRUTURAS(STRUCTS): As classes definem tipos de referência que são armazenados no heap. Se uma classe contiver poucos dados haverá um grande overhead(sobrecarga) no gerenciamento do heap. Uma classe usa então duas áreas de memória para armazenar dados(pilha e o heap). Nesses casos, onde você precisa criar uma classe, mas que armazene poucos dados,  podemos utilizar uma estrutura que utiliza apenas uma área de memória. Uma struct é como se fosse uma classe simplificada, ou seja, armazena pequenos grupos de variáveis relacionadas e esse armazenamento é feito apenas na pilha.
 Estruturas em C# são usadas para criar tipos de valor,  e por isso são armazenadas na stack(pilha). Sendo assim, o overhead de gerenciamento de memória pode ser bastante reduzido. Uma estrutura pode ter campos, métodos e até mesmo construtores (com algumas limitações).
 OBS: A variável de estrutura armazena diretamente os dados, ao passo que uma classe armazena uma referência da pilha á área de memória que contém os dados armazenados no heap. Ou seja, basicamente a Estrutura economiza memória.
+OBS: Não é possível fazer herança em estruturas, mesmo elas sendo parecidas com classes.
 
 TIPOS DE ESTRUTURAS COMUNS: Usamos estruturas na maior parte do tempo: os tipos numéricos primitivos int, long e float são aliases(apelidos) para as estruturas System.Int32, System.Int64 e System.Single. Estas estruturas possuem campos e métodos que podem ser chamados em variáveis desses tipos.O exemplo mais clássico é o método ToString. Outro exemplo são os campos MaxValue e MinValue de Int32.
 
@@ -842,6 +843,7 @@ Um exemplo clássico de herança seria a classificação de mamíferos no reino 
 Podemos criar classes distintas para cada animal, mas essas classes teriam muitos comportamento ("métodos") em comum entre eles, como Respirar, Mamar e Reproduzir-se, o que ocasionaria repetição desnecessária de código. Usamos então Herança para resolver esse problema.
 
 Podemos então criar uma classe chamada Mamífero(generalista) que possua as funcionalidades comuns a todos os animais mamíferos, e então criar as classes Humano, Baleia e Gato herdando essas funcionalidades específicas de cada animal, como Falar, Nadar e Arranhar.
+OBS: Herança só funciona de classe para classe. Mesmo as estruturas(sctructs) serem parecidas com classes, não é possível fazer herança com estruturas.
 
 DECLARANDO A HERANÇA: 
 class ClasseDerivada : ClasseBase
