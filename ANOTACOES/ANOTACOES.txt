@@ -895,6 +895,11 @@ class Mamifero
     }
 }
 
+DECLARANDO MÉTODOS OVERRRIDE: Um método override(sobrescrever) é um método em uma classe derivada que pode declarar uma outra implementação de um método virtual da classe base.
+- Um método virtual não pode ser privado.
+- As assinaturas do método virtual e do sobrescrito devem ser idênticas.
+- Só é possível sobrescrever métodos virtuais.
+- Um método sobrescrito é implicitamente virtual pode ser sobrescrito em uma classe derivada.
 
 
 
