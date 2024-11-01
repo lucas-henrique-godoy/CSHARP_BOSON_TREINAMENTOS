@@ -910,6 +910,9 @@ class Humano : Mamifero
         Console.WriteLine("Eu luto com armas...");
     }
 }
+_______________________________________________________________________________________________________________________________________________________________________
+
+ACESSO PROTEGIDO: Métodos e campos públicos em uma classe são acessíveis a todos. Já os privados são acessíveis apenas à classe em si. Porém, as vezes, é importante que uma classe base permita que as classes derivadas acessem alguns de seus membros, ao tempo em que esconde esses membros de outras classes fora da hierarquia de herança. Neste caso, usamos a protected.
 
 
 
