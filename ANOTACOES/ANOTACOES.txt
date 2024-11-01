@@ -881,6 +881,9 @@ class Gato : Mamifero
 
     }
 }
+_______________________________________________________________________________________________________________________________________________________________________
+
+MÉTODOS VIRTUAIS: Um método virtual é um método que pode ser sobrescrito em uma classe derivada. Isso significa que  método pode ser chamado e usado como foi originalmente escrito na classe base, mas também podemos escrever uma nova implementação dele que substitua o método original. Assim, os métodos são relacionados pois realizam tarefas similares, mas de forma específica em cada classe.
 
 
 
