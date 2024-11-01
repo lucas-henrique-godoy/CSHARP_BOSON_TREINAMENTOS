@@ -901,6 +901,16 @@ DECLARANDO MÉTODOS OVERRRIDE: Um método override(sobrescrever) é um método e
 - Só é possível sobrescrever métodos virtuais.
 - Um método sobrescrito é implicitamente virtual pode ser sobrescrito em uma classe derivada.
 
+DECLARANDO MÉTODOS OVERRIDE:
+EXEMPLO:
+class Humano : Mamifero
+{
+    public override void Lutar() // Método sobescrito
+    {
+        Console.WriteLine("Eu luto com armas...");
+    }
+}
+
 
 
 
