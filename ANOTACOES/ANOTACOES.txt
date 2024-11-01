@@ -910,9 +910,16 @@ class Humano : Mamifero
         Console.WriteLine("Eu luto com armas...");
     }
 }
-_______________________________________________________________________________________________________________________________________________________________________
+
 
 ACESSO PROTEGIDO: Métodos e campos públicos em uma classe são acessíveis a todos. Já os privados são acessíveis apenas à classe em si. Porém, as vezes, é importante que uma classe base permita que as classes derivadas acessem alguns de seus membros, ao tempo em que esconde esses membros de outras classes fora da hierarquia de herança. Neste caso, usamos a protected.
+
+ACESSO RPOTEGIDO - FUNCIONAMENTO: Se uma classe X é derivada de uma classe Y, ela pode acessar os membros protegidos de Y. É como se os membros de Y fossem públicos. Já uma classe W, não derivada de Y não poderá acessar os membros protegidos de Y - é como se os membros de Y fossem privados.
+
+OBS: Quando utilizamos a palavra protected, você irá criar membros em uma classe base que as vezes irão se comportar como membros públicos,  e as vezes irão se comportar como membros privados, depende de quem     A boa prática
+_______________________________________________________________________________________________________________________________________________________________________
+
+
 
 
 
