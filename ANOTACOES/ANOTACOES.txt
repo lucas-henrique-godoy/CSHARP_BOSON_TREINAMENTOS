@@ -918,7 +918,12 @@ ACESSO PROTEGIDO: Métodos e campos públicos em uma classe são acessíveis a t
 ACESSO RPOTEGIDO - FUNCIONAMENTO: Se uma classe X é derivada de uma classe Y, ela pode acessar os membros protegidos de Y. É como se os membros de Y fossem públicos. Já uma classe W, não derivada de Y não poderá acessar os membros protegidos de Y - é como se os membros de Y fossem privados.
 
 OBS-1: Quando utilizamos a palavra protected, você irá criar membros em uma classe base que as vezes irão se comportar como membros públicos,  e as vezes irão se comportar como membros privados, depende de quem quer acessá-los. Nós podemos declarar membros como protegidos a vontade nas classes, mas a boa prática diz pra gente sempre declarar os membros como privados, e somente quando for absolutamente necessário,  usar essa técnica do acesso protegido criando membros protegidos, isso para evitar a violação do encapsulamento de classes.
-OBS-2: Uma outra boa prática é colocar um _(underline)  _______________________________________________________________________________________________________________________________________________________________________
+
+OBS-2: Uma outra boa prática é colocar um _(underline) antes do nome de um campo  quando esse campo for protected ou private, para ficar legível o código (mas não é obrigatório).
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________
 
 
 
