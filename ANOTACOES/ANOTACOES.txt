@@ -922,7 +922,7 @@ OBS-1: Quando utilizamos a palavra protected, você irá criar membros em uma cl
 OBS-2: Uma outra boa prática é colocar um _(underline) antes do nome de um campo  quando esse campo for protected ou private, para ficar legível o código (mas não é obrigatório).
 _______________________________________________________________________________________________________________________________________________________________________
 
-WINDOWS FORMS CLASSE COLORDIALOG: Permite incluir um seletor de paleta de ores nos projetos.
+WINDOWS FORMS CLASSE COLORDIALOG: Permite inserir nos meus projetos um controle capaz de exibir uma paleta de cores que pode ser utilizada para fazer alterações visuais em outros controles do meu projeto.
 
 
 
