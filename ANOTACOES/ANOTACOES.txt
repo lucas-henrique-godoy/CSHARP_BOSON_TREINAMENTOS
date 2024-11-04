@@ -924,6 +924,7 @@ ________________________________________________________________________________
 
 WINDOWS FORMS CLASSE COLORDIALOG: Permite inserir nos meus projetos um controle capaz de exibir uma paleta de cores que pode ser utilizada para fazer alterações visuais em outros controles do meu projeto.
 
+- No Windows forms é possível aicionar menus com MenusStrip e teclas de atalha para cada botão do menu com a propriedade ShortcutKeys.
 
 
 
