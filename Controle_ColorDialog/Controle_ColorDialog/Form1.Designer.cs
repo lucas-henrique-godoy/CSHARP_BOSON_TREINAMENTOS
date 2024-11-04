@@ -28,43 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
+            btnCorFundo = new System.Windows.Forms.Button();
+            btnCorTexto = new System.Windows.Forms.Button();
+            txtCores = new System.Windows.Forms.TextBox();
             SuspendLayout();
             // 
-            // button1
+            // btnCorFundo
             // 
-            button1.Location = new System.Drawing.Point(62, 62);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(114, 63);
-            button1.TabIndex = 0;
-            button1.Text = "Cor de Fundo";
-            button1.UseVisualStyleBackColor = true;
+            btnCorFundo.Location = new System.Drawing.Point(62, 62);
+            btnCorFundo.Name = "btnCorFundo";
+            btnCorFundo.Size = new System.Drawing.Size(114, 63);
+            btnCorFundo.TabIndex = 0;
+            btnCorFundo.Text = "Cor de Fundo";
+            btnCorFundo.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnCorTexto
             // 
-            button2.Location = new System.Drawing.Point(62, 192);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(114, 63);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnCorTexto.Location = new System.Drawing.Point(62, 177);
+            btnCorTexto.Name = "btnCorTexto";
+            btnCorTexto.Size = new System.Drawing.Size(114, 63);
+            btnCorTexto.TabIndex = 1;
+            btnCorTexto.Text = "Cor do Texto";
+            btnCorTexto.UseVisualStyleBackColor = true;
+            // 
+            // txtCores
+            // 
+            txtCores.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txtCores.Location = new System.Drawing.Point(219, 142);
+            txtCores.Name = "txtCores";
+            txtCores.Size = new System.Drawing.Size(364, 39);
+            txtCores.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(txtCores);
+            Controls.Add(btnCorTexto);
+            Controls.Add(btnCorFundo);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCorFundo;
+        private System.Windows.Forms.Button btnCorTexto;
+        private System.Windows.Forms.TextBox txtCores;
     }
 }
