@@ -17,25 +17,25 @@ namespace Controle_ColorDialog
             InitializeComponent();
         }
 
-        private void btnCorFundo_Click(object sender, EventArgs e)
+        private void btnCorFundo_Click(object sender, EventArgs e) // Método chamado ao clicar no botão "btnCorFundo".
         {
-            if (cdgCaixaCores.ShowDialog() == DialogResult.OK)
+            if (cdgCaixaCores.ShowDialog() == DialogResult.OK) // Verifica se o usuário selecionou uma cor.
             {
-                txtCores.BackColor = cdgCaixaCores.Color;
+                txtCores.BackColor = cdgCaixaCores.Color; // Altera a cor de fundo do textbox para a cor selecionada.
             }
         }
 
-        private void btnCorTexto_Click(object sender, EventArgs e)
+        private void btnCorTexto_Click(object sender, EventArgs e) // Método chamado ao clicar no botão "btnCorTexto".
         {
-            ColorDialog cdgCaixaCores2 = new ColorDialog();
-            cdgCaixaCores2.AllowFullOpen = false;
-            cdgCaixaCores2.AnyColor = true;
-            cdgCaixaCores2.SolidColorOnly = false;
-            cdgCaixaCores2.Color = Color.Blue;
+            ColorDialog cdgCaixaCores2 = new ColorDialog(); // Cria uma nova instância da caixa de diálogo de cores.
+            cdgCaixaCores2.AllowFullOpen = false; // Impede que o usuário selecione cores fora do padrão.
+            cdgCaixaCores2.AnyColor = true; // Permite que o usuário escolha qualquer cor.
+            cdgCaixaCores2.SolidColorOnly = false; // Permite que o usuário selecione cores sólidas e não sólidas.
+            cdgCaixaCores2.Color = Color.Blue; // Define a cor inicial da caixa de diálogo como azul.
 
-            if (cdgCaixaCores2.ShowDialog() == DialogResult.OK)
+            if (cdgCaixaCores2.ShowDialog() == DialogResult.OK) // Exibe a caixa de diálogo e verifica se uma cor foi selecionada.
             {
-                txtCores.ForeColor = cdgCaixaCores2.Color;
+                txtCores.ForeColor = cdgCaixaCores2.Color; // Altera a cor do texto do textbox para a cor selecionada.
             }
         }
     }
