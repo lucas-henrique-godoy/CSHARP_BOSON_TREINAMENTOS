@@ -31,6 +31,7 @@
             btnCorFundo = new System.Windows.Forms.Button();
             btnCorTexto = new System.Windows.Forms.Button();
             txtCores = new System.Windows.Forms.TextBox();
+            cdgCaixaCores = new System.Windows.Forms.ColorDialog();
             SuspendLayout();
             // 
             // btnCorFundo
@@ -41,6 +42,7 @@
             btnCorFundo.TabIndex = 0;
             btnCorFundo.Text = "Cor de Fundo";
             btnCorFundo.UseVisualStyleBackColor = true;
+            btnCorFundo.Click += btnCorFundo_Click;
             // 
             // btnCorTexto
             // 
@@ -50,11 +52,12 @@
             btnCorTexto.TabIndex = 1;
             btnCorTexto.Text = "Cor do Texto";
             btnCorTexto.UseVisualStyleBackColor = true;
+            btnCorTexto.Click += btnCorTexto_Click;
             // 
             // txtCores
             // 
             txtCores.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            txtCores.Location = new System.Drawing.Point(219, 142);
+            txtCores.Location = new System.Drawing.Point(216, 133);
             txtCores.Name = "txtCores";
             txtCores.Size = new System.Drawing.Size(364, 39);
             txtCores.TabIndex = 2;
@@ -78,5 +81,6 @@
         private System.Windows.Forms.Button btnCorFundo;
         private System.Windows.Forms.Button btnCorTexto;
         private System.Windows.Forms.TextBox txtCores;
+        private System.Windows.Forms.ColorDialog cdgCaixaCores;
     }
 }
