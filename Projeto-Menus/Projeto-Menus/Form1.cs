@@ -17,6 +17,17 @@ namespace Projeto_Menus
             InitializeComponent();
         }
 
-       
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // Fecha a aplicação quando clicado.
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            janela Tela = new janela(); // Cria uma nova instância da classe 'janela'
+            Tela.Show(); // Abre o form chamado janela quando clicado
+            this.Hide(); // Fecha a primeira janela
+
+        }
     }
 }
