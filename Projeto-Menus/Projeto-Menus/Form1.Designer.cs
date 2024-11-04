@@ -60,6 +60,7 @@
             // item1ToolStripMenuItem
             // 
             item1ToolStripMenuItem.Name = "item1ToolStripMenuItem";
+            item1ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D3;
             item1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             item1ToolStripMenuItem.Text = "Item 1";
             // 
@@ -103,6 +104,7 @@
             // sobreToolStripMenuItem
             // 
             sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            sobreToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.S;
             sobreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             sobreToolStripMenuItem.Text = "Sobre";
             sobreToolStripMenuItem.Click += sobreToolStripMenuItem_Click;
