@@ -925,6 +925,9 @@ ________________________________________________________________________________
 WINDOWS FORMS CLASSE COLORDIALOG: Permite inserir nos meus projetos um controle capaz de exibir uma paleta de cores que pode ser utilizada para fazer alterações visuais em outros controles do meu projeto.
 
 - No Windows forms é possível adicionar menus com MenusStrip e teclas de atalha para cada botão do menu com a propriedade ShortcutKeys.
+_______________________________________________________________________________________________________________________________________________________________________
+
+ORDENAÇÃO DE ARRAYS COM MÉTODO BUBBLE SORT: Compara as duas posições; se a segunda dor menor que a primeira, será realizada a troca via variável auxiliar.
 
 
 

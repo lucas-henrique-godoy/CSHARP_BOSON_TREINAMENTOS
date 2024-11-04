@@ -15,7 +15,6 @@ namespace BubbleSort
         public Form1()
         {
             InitializeComponent();
-        }
-
+        }       
     }
 }

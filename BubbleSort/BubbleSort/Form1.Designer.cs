@@ -52,7 +52,7 @@
             btnOrdenaArray.Name = "btnOrdenaArray";
             btnOrdenaArray.Size = new System.Drawing.Size(100, 59);
             btnOrdenaArray.TabIndex = 1;
-            btnOrdenaArray.Text = "button2";
+            btnOrdenaArray.Text = "Ordenar Array";
             btnOrdenaArray.UseVisualStyleBackColor = true;
             // 
             // btnMetodoSort
@@ -61,8 +61,8 @@
             btnMetodoSort.Name = "btnMetodoSort";
             btnMetodoSort.Size = new System.Drawing.Size(100, 59);
             btnMetodoSort.TabIndex = 2;
-            btnMetodoSort.Text = "button3";
-            btnMetodoSort.UseVisualStyleBackColor = true;
+            btnMetodoSort.Text = "Ordena Método Sort";
+            btnMetodoSort.UseVisualStyleBackColor = true;            
             // 
             // label1
             // 
