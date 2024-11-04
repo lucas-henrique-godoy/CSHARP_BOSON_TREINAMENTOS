@@ -43,7 +43,7 @@
             btnCriaArray.Name = "btnCriaArray";
             btnCriaArray.Size = new System.Drawing.Size(100, 59);
             btnCriaArray.TabIndex = 0;
-            btnCriaArray.Text = "button1";
+            btnCriaArray.Text = "Criar Array";
             btnCriaArray.UseVisualStyleBackColor = true;
             // 
             // btnOrdenaArray
