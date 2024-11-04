@@ -50,6 +50,7 @@
             Controls.Add(label1);
             Name = "janela";
             Text = "janela";
+            FormClosed += janela_FormClosed;
             ResumeLayout(false);
             PerformLayout();
         }

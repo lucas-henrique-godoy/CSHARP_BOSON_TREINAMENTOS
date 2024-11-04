@@ -26,7 +26,7 @@ namespace Projeto_Menus
         {
             janela Tela = new janela(); // Cria uma nova instância da classe 'janela'
             Tela.Show(); // Abre o form chamado janela quando clicado
-            this.Hide(); // Fecha a primeira janela
+            this.Hide(); // Fecha a primeira janela mas a aplicação continua aberta
 
         }
     }
