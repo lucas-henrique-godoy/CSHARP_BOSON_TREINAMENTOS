@@ -31,84 +31,87 @@
             btnCriaArray = new System.Windows.Forms.Button();
             btnOrdenaArray = new System.Windows.Forms.Button();
             btnMetodoSort = new System.Windows.Forms.Button();
-            label1 = new System.Windows.Forms.Label();
-            label2 = new System.Windows.Forms.Label();
-            label3 = new System.Windows.Forms.Label();
-            label4 = new System.Windows.Forms.Label();
+            lblArrayOriginal = new System.Windows.Forms.Label();
+            lblOrdenado = new System.Windows.Forms.Label();
+            lblArraySort = new System.Windows.Forms.Label();
+            lblArrayOriginal2 = new System.Windows.Forms.Label();
             SuspendLayout();
             // 
             // btnCriaArray
             // 
             btnCriaArray.Location = new System.Drawing.Point(68, 46);
             btnCriaArray.Name = "btnCriaArray";
-            btnCriaArray.Size = new System.Drawing.Size(100, 59);
+            btnCriaArray.Size = new System.Drawing.Size(126, 66);
             btnCriaArray.TabIndex = 0;
             btnCriaArray.Text = "Criar Array";
             btnCriaArray.UseVisualStyleBackColor = true;
+            btnCriaArray.Click += btnCriaArray_Click;
             // 
             // btnOrdenaArray
             // 
             btnOrdenaArray.Location = new System.Drawing.Point(68, 149);
             btnOrdenaArray.Name = "btnOrdenaArray";
-            btnOrdenaArray.Size = new System.Drawing.Size(100, 59);
+            btnOrdenaArray.Size = new System.Drawing.Size(126, 62);
             btnOrdenaArray.TabIndex = 1;
             btnOrdenaArray.Text = "Ordenar Array";
             btnOrdenaArray.UseVisualStyleBackColor = true;
+            btnOrdenaArray.Click += btnOrdenaArray_Click;
             // 
             // btnMetodoSort
             // 
             btnMetodoSort.Location = new System.Drawing.Point(68, 256);
             btnMetodoSort.Name = "btnMetodoSort";
-            btnMetodoSort.Size = new System.Drawing.Size(100, 59);
+            btnMetodoSort.Size = new System.Drawing.Size(126, 55);
             btnMetodoSort.TabIndex = 2;
             btnMetodoSort.Text = "Ordena Método Sort";
-            btnMetodoSort.UseVisualStyleBackColor = true;            
+            btnMetodoSort.UseVisualStyleBackColor = true;
+            btnMetodoSort.Click += btnMetodoSort_Click;
             // 
-            // label1
+            // lblArrayOriginal
             // 
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(343, 68);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(38, 15);
-            label1.TabIndex = 3;
-            label1.Text = "label1";
+            lblArrayOriginal.AutoSize = true;
+            lblArrayOriginal.Location = new System.Drawing.Point(343, 68);
+            lblArrayOriginal.Name = "lblArrayOriginal";
+            lblArrayOriginal.Size = new System.Drawing.Size(124, 15);
+            lblArrayOriginal.TabIndex = 3;
+            lblArrayOriginal.Text = "Array 1, não ordenado";
             // 
-            // label2
+            // lblOrdenado
             // 
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(343, 171);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(38, 15);
-            label2.TabIndex = 4;
-            label2.Text = "label2";
+            lblOrdenado.AutoSize = true;
+            lblOrdenado.Location = new System.Drawing.Point(343, 171);
+            lblOrdenado.Name = "lblOrdenado";
+            lblOrdenado.Size = new System.Drawing.Size(124, 15);
+            lblOrdenado.TabIndex = 4;
+            lblOrdenado.Text = "Array 1 ordenado aqui";
             // 
-            // label3
+            // lblArraySort
             // 
-            label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(343, 278);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(38, 15);
-            label3.TabIndex = 5;
-            label3.Text = "label3";
+            lblArraySort.AutoSize = true;
+            lblArraySort.Location = new System.Drawing.Point(343, 278);
+            lblArraySort.Name = "lblArraySort";
+            lblArraySort.Size = new System.Drawing.Size(124, 15);
+            lblArraySort.TabIndex = 5;
+            lblArraySort.Text = "Array 2 ordenado aqui";
             // 
-            // label4
+            // lblArrayOriginal2
             // 
-            label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(582, 68);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(38, 15);
-            label4.TabIndex = 6;
-            label4.Text = "label4";
+            lblArrayOriginal2.AutoSize = true;
+            lblArrayOriginal2.Location = new System.Drawing.Point(567, 68);
+            lblArrayOriginal2.Name = "lblArrayOriginal2";
+            lblArrayOriginal2.Size = new System.Drawing.Size(124, 15);
+            lblArrayOriginal2.TabIndex = 6;
+            lblArrayOriginal2.Text = "Array 2, não ordenado";
             // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(664, 372);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            ClientSize = new System.Drawing.Size(776, 379);
+            Controls.Add(lblArrayOriginal2);
+            Controls.Add(lblArraySort);
+            Controls.Add(lblOrdenado);
+            Controls.Add(lblArrayOriginal);
             Controls.Add(btnMetodoSort);
             Controls.Add(btnOrdenaArray);
             Controls.Add(btnCriaArray);
@@ -123,9 +126,9 @@
         private System.Windows.Forms.Button btnCriaArray;
         private System.Windows.Forms.Button btnOrdenaArray;
         private System.Windows.Forms.Button btnMetodoSort;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblArrayOriginal;
+        private System.Windows.Forms.Label lblOrdenado;
+        private System.Windows.Forms.Label lblArraySort;
+        private System.Windows.Forms.Label lblArrayOriginal2;
     }
 }
