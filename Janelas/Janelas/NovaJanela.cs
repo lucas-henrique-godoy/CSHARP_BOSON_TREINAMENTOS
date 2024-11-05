@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Janelas
 {
-    public partial class Form1 : Form
+    public partial class NovaJanela : Form
     {
-        public Form1()
+        public NovaJanela()
         {
             InitializeComponent();
         }        
