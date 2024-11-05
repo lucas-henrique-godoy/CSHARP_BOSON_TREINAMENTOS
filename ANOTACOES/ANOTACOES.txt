@@ -924,7 +924,7 @@ ________________________________________________________________________________
 
 WINDOWS FORMS CLASSE COLORDIALOG: Permite inserir nos meus projetos um controle capaz de exibir uma paleta de cores que pode ser utilizada para fazer alterações visuais em outros controles do meu projeto.
 
-- No Windows forms é possível adicionar menus com MenusStrip e teclas de atalha para cada botão do menu com a propriedade ShortcutKeys.
+- No Windows forms é possível adicionar menus com MenusStrip e teclas de atalho para cada botão do menu com a propriedade ShortcutKeys.
 
 
 PROGRAMAÇÃO EM C# COMO DETERMINAR A TELA INICIAL DA APLICAÇÃO COM WINDOWS FORMS: Para determinar qual será a tela inicial do seu projeto Windows Forms, basta ir no arquivo Program.cs da solução principal e modificar o código dentro do método Application.Run(). O nome do form que for passado como parâmetro será a tela de inicialização do seu projeto.
@@ -932,6 +932,8 @@ PROGRAMAÇÃO EM C# COMO DETERMINAR A TELA INICIAL DA APLICAÇÃO COM WINDOWS FO
 Application.Run(new Nome_Do_Form());
 
 No código acima, substitua Nome_Do_Form pelo nome do form que você deseja que seja exibido na inicialização.
+
+-THREADS: É uma linha de execução de código
 _______________________________________________________________________________________________________________________________________________________________________
 
 ORDENAÇÃO DE ARRAYS COM MÉTODO BUBBLE SORT: Compara as duas posições; se a segunda dor menor que a primeira, será realizada a troca via variável auxiliar.

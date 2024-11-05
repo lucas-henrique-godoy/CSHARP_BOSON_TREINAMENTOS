@@ -20,7 +20,8 @@ namespace Janelas2
         private void btnAbrir_Click(object sender, EventArgs e)
         {
             NovaJanela j2 = new NovaJanela();
-            j2.ShowDialog();
+            j2.Show();
+            this.Hide();
         }
     }
 }
