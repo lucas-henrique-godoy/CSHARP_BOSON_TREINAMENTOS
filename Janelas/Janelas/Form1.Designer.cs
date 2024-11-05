@@ -34,10 +34,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label1.Location = new System.Drawing.Point(128, 139);
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label1.Location = new System.Drawing.Point(53, 140);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(331, 37);
+            label1.Size = new System.Drawing.Size(486, 55);
             label1.TabIndex = 0;
             label1.Text = "Bóson Treinamentos";
             // 
