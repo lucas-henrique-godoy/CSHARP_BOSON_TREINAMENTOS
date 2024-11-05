@@ -974,10 +974,123 @@ OU SEJA: Substitui abertura de nova janela com thread separado para evitar bloqu
 Em vez de utilizar o código `NovaJanela novaJanela = new NovaJanela(); novaJanela.Show(); this.Hide();`, que bloqueava a interface principal enquanto a nova janela era exibida, foi implementada a abertura da nova janela em um thread separado. A nova implementação fecha a janela atual (`this.Close()`) e inicia um novo thread para abrir a `NovaJanela` de forma assíncrona, sem bloquear a UI principal.
 
 Isso melhora a responsividade da aplicação e permite que a janela principal seja fechada enquanto a nova janela é exibida em paralelo.
+_______________________________________________________________________________________________________________________________________________________________________
 
+THREADS: Em C#, threads são unidades de execução dentro de um programa. Elas permitem que você execute múltiplas tarefas de forma concorrente (ou seja, ao mesmo tempo ou de forma intercalada) dentro do mesmo processo. Cada thread tem seu próprio fluxo de execução, e várias threads podem ser executadas simultaneamente, compartilhando os recursos do processo (como memória).
 
+Por que usar threads?
+O uso de threads pode melhorar o desempenho de aplicações que precisam realizar múltiplas tarefas ao mesmo tempo, como em:
 
+Aplicações com interface gráfica (UI): Manter a interface responsiva enquanto realiza operações longas (como leitura de arquivos ou chamadas de rede).
+Processamento paralelo: Dividir grandes tarefas em partes menores que podem ser executadas em paralelo.
+Operações de E/S (entrada e saída): Realizar operações de leitura e escrita de dados sem bloquear a execução principal do programa.
+Como criar e usar threads em C#?
+C# oferece a classe Thread no namespace System.Threading, que permite criar e controlar threads diretamente.
 
+Aqui está um exemplo básico de como criar e executar uma thread:
+
+using System;
+using System.Threading;
+
+class Program
+{
+    // Método que será executado pela thread
+    static void PrintMessage()
+    {
+        Console.WriteLine("Esta é a thread em execução!");
+    }
+
+    static void Main()
+    {
+        // Cria uma nova thread
+        Thread myThread = new Thread(PrintMessage);
+        
+        // Inicia a execução da thread
+        myThread.Start();
+        
+        // Aguarda a conclusão da thread (opcional)
+        myThread.Join();
+        
+        Console.WriteLine("Execução principal concluída.");
+    }
+}
+Explicação do código:
+Thread myThread = new Thread(PrintMessage);
+Cria uma nova thread que executará o método PrintMessage.
+myThread.Start();
+Inicia a execução da thread.
+myThread.Join();
+A chamada Join() faz com que a thread principal aguarde a conclusão da thread criada antes de continuar a execução.
+Concorrência e Sincronização
+Quando várias threads acessam recursos compartilhados, você pode enfrentar problemas de condição de corrida (race conditions). Isso ocorre quando o comportamento do programa depende da ordem de execução das threads, o que pode levar a resultados inesperados. Para lidar com isso, C# oferece mecanismos de sincronização, como:
+
+Monitor: Para bloquear seções críticas de código.
+Mutex: Para sincronizar o acesso entre diferentes threads ou processos.
+Semaphore: Para limitar o número de threads que podem acessar uma parte do código simultaneamente.
+Exemplo com sincronização (Monitor):
+
+using System;
+using System.Threading;
+
+class Program
+{
+    private static object lockObj = new object();
+    private static int counter = 0;
+
+    static void IncrementCounter()
+    {
+        lock (lockObj)
+        {
+            // Seção crítica: só uma thread pode acessar por vez
+            counter++;
+            Console.WriteLine($"Counter: {counter}");
+        }
+    }
+
+    static void Main()
+    {
+        Thread t1 = new Thread(IncrementCounter);
+        Thread t2 = new Thread(IncrementCounter);
+
+        t1.Start();
+        t2.Start();
+
+        t1.Join();
+        t2.Join();
+
+        Console.WriteLine("Execução principal concluída.");
+    }
+}
+Neste exemplo, o lock é usado para garantir que apenas uma thread possa acessar a variável counter de cada vez, evitando condições de corrida.
+
+Thread Pool e TPL (Task Parallel Library)
+Embora a classe Thread seja uma forma básica de trabalhar com threads, em muitos casos, você pode usar o ThreadPool ou a Task Parallel Library (TPL) para gerenciar threads de forma mais eficiente e de alto nível.
+
+ThreadPool: Gerencia um conjunto de threads pré-criadas, evitando o custo de criar e destruir threads manualmente.
+TPL (Tasks): Permite trabalhar com unidades de trabalho assíncronas de forma mais simples, sem precisar se preocupar com o gerenciamento direto de threads.
+Exemplo de uso com Task:
+
+using System;
+using System.Threading.Tasks;
+
+class Program
+{
+    static async Task PrintMessageAsync()
+    {
+        await Task.Delay(1000); // Simula uma operação assíncrona
+        Console.WriteLine("Mensagem impressa após delay.");
+    }
+
+    static async Task Main()
+    {
+        await PrintMessageAsync();
+        Console.WriteLine("Execução principal concluída.");
+    }
+}
+Conclusão
+Threads em C# são uma maneira de executar tarefas de forma concorrente dentro de um processo.
+Elas podem ser criadas e gerenciadas diretamente, mas é comum usar abstrações como o ThreadPool ou Task para facilitar o gerenciamento de concorrência.
+É importante usar mecanismos de sincronização quando várias threads compartilham recursos para evitar problemas de concorrência.
 
 _______________________________________________________________________________________________________________________________________________________________________
 
