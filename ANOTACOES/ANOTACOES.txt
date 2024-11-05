@@ -933,7 +933,16 @@ Application.Run(new Nome_Do_Form());
 
 No código acima, substitua Nome_Do_Form pelo nome do form que você deseja que seja exibido na inicialização.
 
--THREADS: É uma linha de execução de código
+-THREADS: É uma linha de execução de código, que pode pertencer a um processo. Podemos usar Threads para abrir uma nova janela sem que a janela anterior continue carregada na memória consumindo recursos de forma desnecessária.
+
+Se fizermos como no código abaixo, irá abrir uma nova janela, mas a anterior ainda ficará aberta consumindo recursos desnecessários da memória, neste caso é aconselhável utilizar Threads. 
+NovaJanela novaJanela = new NovaJanela();
+ novaJanela.Show();
+ this.Hide(); // Esconde a primeira janela, mas ela ainda continua aberta gastando recursos da memória.
+
+PARA RESOLVER ESSE PROBLEMA USANDO THREADS: Pirmeiro devemos usar using System.Threading; que é uma biblioteca do .NET para trabalhar com threas(linhas de execução)
+
+
 _______________________________________________________________________________________________________________________________________________________________________
 
 ORDENAÇÃO DE ARRAYS COM MÉTODO BUBBLE SORT: Compara as duas posições; se a segunda dor menor que a primeira, será realizada a troca via variável auxiliar.
