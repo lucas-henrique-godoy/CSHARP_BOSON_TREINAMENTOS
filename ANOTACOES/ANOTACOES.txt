@@ -1096,6 +1096,10 @@ ________________________________________________________________________________
 
 ORDENAÇÃO DE ARRAYS COM MÉTODO BUBBLE SORT: Compara as duas posições; se a segunda dor menor que a primeira, será realizada a troca via variável auxiliar.
 
+_______________________________________________________________________________________________________________________________________________________________________
+
+ACESSO A BANCO DE DADOS: 
+
 
 
 
