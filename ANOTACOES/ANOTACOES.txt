@@ -1098,7 +1098,7 @@ ORDENAÇÃO DE ARRAYS COM MÉTODO BUBBLE SORT: Compara as duas posições; se a 
 
 _______________________________________________________________________________________________________________________________________________________________________
 
-ACESSO A BANCO DE DADOS: 
+CLASSE LIST: Representa uma lista fortemente tipada de elementos que podem ser acessados por um número de índice, sempre começando do zero. Ela faz parte do Namespace System.Collections.Generic
 
 
 
