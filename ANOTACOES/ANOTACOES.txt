@@ -1098,7 +1098,8 @@ ORDENAÇÃO DE ARRAYS COM MÉTODO BUBBLE SORT: Compara as duas posições; se a 
 
 _______________________________________________________________________________________________________________________________________________________________________
 
-CLASSE LIST: Representa uma lista fortemente tipada de elementos que podem ser acessados por um número de índice, sempre começando do zero. Ela faz parte do Namespace System.Collections.Generic
+CLASSE LIST: Representa uma lista fortemente tipada de elementos que podem ser acessados por um número de índice, sempre começando do zero. Ela faz parte do Namespace System.Collections.Generic. 
+Uma lista em C# é diferente de um array porque ela pode ser redimensionada dinamicamente, então array tem um tamanho fixo mas a lisa não.
 
 
 
