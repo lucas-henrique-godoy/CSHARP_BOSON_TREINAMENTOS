@@ -15,9 +15,9 @@ namespace Listas_01
             valores.Add(12);
 
             int[] numeros = new int[] { 32, 12, 7, 20 };
-            valores.AddRange(numeros);
+            valores.AddRange(numeros);// Adiconando outros elementos dentro da lista valores.
 
-            Console.WriteLine("A lista possui " + valores.Count() + "elementos ");
+            Console.WriteLine("A lista possui " + valores.Count + " elementos ");            
 
             Console.ReadLine();
         }
