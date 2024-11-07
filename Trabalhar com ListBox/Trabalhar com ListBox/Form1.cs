@@ -39,5 +39,10 @@ namespace Trabalhar_com_ListBox
 
 
         }
+
+        private void btnMaisItem_Click(object sender, EventArgs e)
+        {
+            lstAnimais.Items.Insert(0, txtItem.Text); // Insere o texto digitado em txtItem no início da lista lstAnimais
+        }
     }
 }

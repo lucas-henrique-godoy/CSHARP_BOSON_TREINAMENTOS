@@ -31,6 +31,7 @@
             btnAdicionaItens = new System.Windows.Forms.Button();
             txtItem = new System.Windows.Forms.TextBox();
             lstAnimais = new System.Windows.Forms.ListBox();
+            btnMaisItem = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // btnAdicionaItens
@@ -38,7 +39,7 @@
             btnAdicionaItens.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAdicionaItens.Location = new System.Drawing.Point(39, 212);
             btnAdicionaItens.Name = "btnAdicionaItens";
-            btnAdicionaItens.Size = new System.Drawing.Size(155, 51);
+            btnAdicionaItens.Size = new System.Drawing.Size(176, 64);
             btnAdicionaItens.TabIndex = 0;
             btnAdicionaItens.Text = "Adicionar Itens";
             btnAdicionaItens.UseVisualStyleBackColor = true;
@@ -62,11 +63,23 @@
             lstAnimais.Size = new System.Drawing.Size(120, 244);
             lstAnimais.TabIndex = 2;
             // 
+            // btnMaisItem
+            // 
+            btnMaisItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            btnMaisItem.Location = new System.Drawing.Point(39, 308);
+            btnMaisItem.Name = "btnMaisItem";
+            btnMaisItem.Size = new System.Drawing.Size(176, 64);
+            btnMaisItem.TabIndex = 3;
+            btnMaisItem.Text = "Adicionar mais intens";
+            btnMaisItem.UseVisualStyleBackColor = true;
+            btnMaisItem.Click += btnMaisItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(482, 490);
+            Controls.Add(btnMaisItem);
             Controls.Add(lstAnimais);
             Controls.Add(txtItem);
             Controls.Add(btnAdicionaItens);
@@ -81,5 +94,6 @@
         private System.Windows.Forms.Button btnAdicionaItens;
         private System.Windows.Forms.TextBox txtItem;
         private System.Windows.Forms.ListBox lstAnimais;
+        private System.Windows.Forms.Button btnMaisItem;
     }
 }
