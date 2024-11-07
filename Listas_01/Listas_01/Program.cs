@@ -21,7 +21,8 @@ namespace Listas_01
             //Console.WriteLine("A lista possui " + valores.Count + " elementos ");
             //Console.WriteLine("O primeiro item é " + valores[0]);
 
-            
+            valores.Insert(1,13); // Inserindo o valor 13 na posição de índice 1            
+            valores.Remove(12);// Remove a 1º ocorrencia desse valor mas não as demais
             
             foreach (int item in valores)
             {
