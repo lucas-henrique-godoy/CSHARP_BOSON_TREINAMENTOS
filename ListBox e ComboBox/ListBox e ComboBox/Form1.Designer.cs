@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             lstAnimais = new System.Windows.Forms.ListBox();
-            button1 = new System.Windows.Forms.Button();
+            btnAdiciona = new System.Windows.Forms.Button();
             label1 = new System.Windows.Forms.Label();
             button2 = new System.Windows.Forms.Button();
             label2 = new System.Windows.Forms.Label();
-            textBox1 = new System.Windows.Forms.TextBox();
+            txtAdicionaItem = new System.Windows.Forms.TextBox();
             button3 = new System.Windows.Forms.Button();
             button4 = new System.Windows.Forms.Button();
             button5 = new System.Windows.Forms.Button();
@@ -49,14 +49,15 @@
             lstAnimais.Size = new System.Drawing.Size(177, 319);
             lstAnimais.TabIndex = 0;
             // 
-            // button1
+            // btnAdiciona
             // 
-            button1.Location = new System.Drawing.Point(55, 149);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(129, 55);
-            button1.TabIndex = 1;
-            button1.Text = "Adicionar Item";
-            button1.UseVisualStyleBackColor = true;
+            btnAdiciona.Location = new System.Drawing.Point(55, 149);
+            btnAdiciona.Name = "btnAdiciona";
+            btnAdiciona.Size = new System.Drawing.Size(129, 55);
+            btnAdiciona.TabIndex = 1;
+            btnAdiciona.Text = "Adicionar Item";
+            btnAdiciona.UseVisualStyleBackColor = true;
+            btnAdiciona.Click += btnAdiciona_Click;
             // 
             // label1
             // 
@@ -87,13 +88,13 @@
             label2.TabIndex = 4;
             label2.Text = "Digite um item para adicionar ao ListBox";
             // 
-            // textBox1
+            // txtAdicionaItem
             // 
-            textBox1.Location = new System.Drawing.Point(33, 101);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new System.Drawing.Size(200, 30);
-            textBox1.TabIndex = 5;
+            txtAdicionaItem.Location = new System.Drawing.Point(33, 101);
+            txtAdicionaItem.Multiline = true;
+            txtAdicionaItem.Name = "txtAdicionaItem";
+            txtAdicionaItem.Size = new System.Drawing.Size(200, 30);
+            txtAdicionaItem.TabIndex = 5;
             // 
             // button3
             // 
@@ -140,11 +141,11 @@
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(textBox1);
+            Controls.Add(txtAdicionaItem);
             Controls.Add(label2);
             Controls.Add(button2);
             Controls.Add(label1);
-            Controls.Add(button1);
+            Controls.Add(btnAdiciona);
             Controls.Add(lstAnimais);
             Name = "Form1";
             Text = "ListBox";
@@ -155,11 +156,11 @@
         #endregion
 
         private System.Windows.Forms.ListBox lstAnimais;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAdiciona;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAdicionaItem;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
