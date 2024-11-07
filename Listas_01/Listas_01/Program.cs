@@ -25,6 +25,19 @@ namespace Listas_01
             valores.Remove(12); //Remove a 1º ocorrência desse valor mas não as demais
             valores.RemoveAt(2); //Remove um elemento de uma posição específica
 
+            int valorProcurado = 16;
+            bool valorExiste;
+            valorExiste = valores.Contains(valorProcurado);
+            if (valorExiste)
+            {
+                Console.WriteLine("Valor encontrado!");
+            }
+            else
+            {
+                Console.WriteLine("Valor não encontrado!");
+            }
+            
+
             foreach (int item in valores)
             {
                 Console.WriteLine(item.ToString());
