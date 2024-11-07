@@ -20,7 +20,7 @@ namespace Trabalhar_com_ListBox // Define o namespace do projeto, onde o código
         // Método que é chamado quando o botão 'btnAdicionaItens' é clicado.
         private void btnAdicionaItens_Click(object sender, EventArgs e)
         {
-            // Comentado, pois foi substituído por outras implementações. Aqui, os itens são adicionados manualmente.
+            // Código comentado foi substituído por outra abordagem. Aqui, o código original adiciona itens manualmente na lista.
             /*lstAnimais.Items.Add("Águia"); // Adiciona o item "Águia" à lista lstAnimais
             lstAnimais.Items.Add("Baleia"); // Adiciona o item "Baleia" à lista lstAnimais
             lstAnimais.Items.Add("Tamanduá"); // Adiciona o item "Tamanduá" à lista lstAnimais
@@ -31,13 +31,14 @@ namespace Trabalhar_com_ListBox // Define o namespace do projeto, onde o código
         // Método que é chamado quando o botão 'btnMaisItem' é clicado.
         private void btnMaisItem_Click(object sender, EventArgs e)
         {
-            // Insere o texto digitado no TextBox (txtItem) no início da lista 'lstAnimais'.
+            // Insere o texto digitado no controle TextBox (txtItem) no início da lista 'lstAnimais'.
             lstAnimais.Items.Insert(0, txtItem.Text); // Insere o texto digitado em txtItem no início da lista lstAnimais
         }
 
         // Método que é chamado quando o botão 'btnRemoveItens' é clicado.
         private void btnRemoveItens_Click(object sender, EventArgs e)
         {
+            // Código comentado para remover itens da lista. Neste exemplo, removemos todos os itens da lista.
             /*if (lstAnimais.SelectedIndex != -1) // Verifica se um item foi selecionado na lista
             {
                 lstAnimais.Items.RemoveAt(lstAnimais.SelectedIndex); // Remove o item selecionado da lista lstAnimais
@@ -50,23 +51,24 @@ namespace Trabalhar_com_ListBox // Define o namespace do projeto, onde o código
             /*lstAnimais.Items.Remove(lstAnimais.SelectedItem); // Remove o item selecionado diretamente
             lstAnimais.Items.Remove("Gato"); // Remove especificamente o item "Gato" da lista*/
 
-            /*Loop que percorre os itens selecionados da lista e os remove.
-            Fazemos isso de trás para frente para evitar problemas com a alteração do índice à medida que os itens são removidos.
+            /* Comentado o loop que removeria os itens selecionados de trás para frente
             for (int i = lstAnimais.SelectedIndices.Count - 1; i >= 0; i--) // Itera pelos índices selecionados da lista, do último para o primeiro.
             {
-                lstAnimais.Items.RemoveAt(lstAnimais.SelectedIndices[i]); // Remove o item na posição selecionada na lista
+                lstAnimais.Items.RemoveAt(lstAnimais.SelectedIndices[i]); // Remove o item na posição selecionada da lista
             }
             */
 
-            lstAnimais.Items.Clear();
+            // Remove todos os itens da lista de uma vez.
+            lstAnimais.Items.Clear(); // Remove todos os itens da lista lstAnimais
         }
 
         // Método que é chamado quando o formulário é carregado (ao iniciar o programa).
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Adiciona os itens de um array à lista, mas somente se a lista estiver vazia.
-            string[] animais = new string[7] { "Gato", "Cão", "Papagaio", "Lontra", "Golfinho", "Foca", "Tatu" }; // Cria um array de strings com 7 nomes de animais
+            // Cria um array de strings com 7 nomes de animais.
+            string[] animais = new string[7] { "Gato", "Cão", "Papagaio", "Lontra", "Golfinho", "Foca", "Tatu" };
 
+            // Adiciona todos os itens do array 'animais' à lista lstAnimais de uma vez.
             lstAnimais.Items.AddRange(animais); // Adiciona todos os itens do array 'animais' à lista lstAnimais de uma vez
         }
     }
