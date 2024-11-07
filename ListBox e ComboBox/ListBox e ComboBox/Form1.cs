@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -48,7 +49,7 @@ namespace ListBox_e_ComboBox
 
         private void button3_Click(object sender, EventArgs e)
         {
-            lstAnimais.Items.Clear();
+            lstAnimais.Items.Clear(); //Limpa todos os itens da lista lstAnimais, removendo qualquer conteúdo atual
         }
     }
 }
