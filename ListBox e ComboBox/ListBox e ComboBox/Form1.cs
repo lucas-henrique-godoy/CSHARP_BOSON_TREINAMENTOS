@@ -51,5 +51,33 @@ namespace ListBox_e_ComboBox
         {
             lstAnimais.Items.Clear(); //Limpa todos os itens da lista lstAnimais, removendo qualquer conteúdo atual
         }
+
+        private void btnRemoveSelecionado_Click(object sender, EventArgs e)
+        {
+            for (int i = lstAnimais.SelectedIndices.Count - 1; i >= 0; i--) // Inicia um loop que começa do último item selecionado e vai até o primeiro
+            {
+                lstAnimais.Items.RemoveAt(lstAnimais.SelectedIndices[i]); // Remove o item da lista na posição do índice selecionado
+            }
+
+        }
+
+        private void btnLerItemLista_Click(object sender, EventArgs e)
+        {
+            if (lstAnimais.SelectedIndex < 0) // Verifica se nenhum item foi selecionado na lista lstAnimais
+            {
+                MessageBox.Show("Selecione um item da lista", "Item não selecionado!"); // Exibe uma mensagem avisando que nenhum item foi selecionado
+            }
+            else
+            {
+                string item = lstAnimais.SelectedItem.ToString(); // Obtém o item selecionado da lista e converte para uma string
+                MessageBox.Show("Item selecionado: " + item, "Item selecionado"); // Exibe uma mensagem com o nome do item selecionado
+            }
+
+        }
+
+        private void btnClassifica_Click(object sender, EventArgs e)
+        {
+            lstAnimais.Sorted = true; // Define que a lista lstAnimais deve ser exibida em ordem crescente (alfabética, por padrão)
+        }
     }
 }

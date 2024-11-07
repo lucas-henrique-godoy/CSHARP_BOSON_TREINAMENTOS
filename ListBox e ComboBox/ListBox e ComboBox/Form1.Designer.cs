@@ -35,9 +35,9 @@
             label2 = new System.Windows.Forms.Label();
             txtAdicionaItem = new System.Windows.Forms.TextBox();
             button3 = new System.Windows.Forms.Button();
-            button4 = new System.Windows.Forms.Button();
-            button5 = new System.Windows.Forms.Button();
-            button6 = new System.Windows.Forms.Button();
+            btnRemoveSelecionado = new System.Windows.Forms.Button();
+            btnLerItemLista = new System.Windows.Forms.Button();
+            btnClassifica = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // lstAnimais
@@ -107,41 +107,44 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
-            // button4
+            // btnRemoveSelecionado
             // 
-            button4.Location = new System.Drawing.Point(633, 160);
-            button4.Name = "button4";
-            button4.Size = new System.Drawing.Size(97, 57);
-            button4.TabIndex = 7;
-            button4.Text = "Remover Selecionado";
-            button4.UseVisualStyleBackColor = true;
+            btnRemoveSelecionado.Location = new System.Drawing.Point(633, 160);
+            btnRemoveSelecionado.Name = "btnRemoveSelecionado";
+            btnRemoveSelecionado.Size = new System.Drawing.Size(97, 57);
+            btnRemoveSelecionado.TabIndex = 7;
+            btnRemoveSelecionado.Text = "Remover Selecionado";
+            btnRemoveSelecionado.UseVisualStyleBackColor = true;
+            btnRemoveSelecionado.Click += btnRemoveSelecionado_Click;
             // 
-            // button5
+            // btnLerItemLista
             // 
-            button5.Location = new System.Drawing.Point(633, 251);
-            button5.Name = "button5";
-            button5.Size = new System.Drawing.Size(97, 57);
-            button5.TabIndex = 8;
-            button5.Text = "Ler Item da Lista";
-            button5.UseVisualStyleBackColor = true;
+            btnLerItemLista.Location = new System.Drawing.Point(633, 251);
+            btnLerItemLista.Name = "btnLerItemLista";
+            btnLerItemLista.Size = new System.Drawing.Size(97, 57);
+            btnLerItemLista.TabIndex = 8;
+            btnLerItemLista.Text = "Ler Item da Lista";
+            btnLerItemLista.UseVisualStyleBackColor = true;
+            btnLerItemLista.Click += btnLerItemLista_Click;
             // 
-            // button6
+            // btnClassifica
             // 
-            button6.Location = new System.Drawing.Point(633, 336);
-            button6.Name = "button6";
-            button6.Size = new System.Drawing.Size(97, 57);
-            button6.TabIndex = 9;
-            button6.Text = "Classificar Lista";
-            button6.UseVisualStyleBackColor = true;
+            btnClassifica.Location = new System.Drawing.Point(633, 336);
+            btnClassifica.Name = "btnClassifica";
+            btnClassifica.Size = new System.Drawing.Size(97, 57);
+            btnClassifica.TabIndex = 9;
+            btnClassifica.Text = "Classificar Lista";
+            btnClassifica.UseVisualStyleBackColor = true;
+            btnClassifica.Click += btnClassifica_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(763, 437);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
+            Controls.Add(btnClassifica);
+            Controls.Add(btnLerItemLista);
+            Controls.Add(btnRemoveSelecionado);
             Controls.Add(button3);
             Controls.Add(txtAdicionaItem);
             Controls.Add(label2);
@@ -164,8 +167,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtAdicionaItem;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnRemoveSelecionado;
+        private System.Windows.Forms.Button btnLerItemLista;
+        private System.Windows.Forms.Button btnClassifica;
     }
 }
