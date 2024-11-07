@@ -50,12 +50,15 @@ namespace Trabalhar_com_ListBox // Define o namespace do projeto, onde o código
             /*lstAnimais.Items.Remove(lstAnimais.SelectedItem); // Remove o item selecionado diretamente
             lstAnimais.Items.Remove("Gato"); // Remove especificamente o item "Gato" da lista*/
 
-            // Loop que percorre os itens selecionados da lista e os remove.
-            // Fazemos isso de trás para frente para evitar problemas com a alteração do índice à medida que os itens são removidos.
+            /*Loop que percorre os itens selecionados da lista e os remove.
+            Fazemos isso de trás para frente para evitar problemas com a alteração do índice à medida que os itens são removidos.
             for (int i = lstAnimais.SelectedIndices.Count - 1; i >= 0; i--) // Itera pelos índices selecionados da lista, do último para o primeiro.
             {
                 lstAnimais.Items.RemoveAt(lstAnimais.SelectedIndices[i]); // Remove o item na posição selecionada na lista
             }
+            */
+
+            lstAnimais.Items.Clear();
         }
 
         // Método que é chamado quando o formulário é carregado (ao iniciar o programa).
