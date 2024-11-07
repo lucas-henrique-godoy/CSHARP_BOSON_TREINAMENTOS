@@ -51,7 +51,7 @@
             // 
             // btnAdiciona
             // 
-            btnAdiciona.Location = new System.Drawing.Point(55, 149);
+            btnAdiciona.Location = new System.Drawing.Point(33, 147);
             btnAdiciona.Name = "btnAdiciona";
             btnAdiciona.Size = new System.Drawing.Size(129, 55);
             btnAdiciona.TabIndex = 1;
@@ -71,7 +71,7 @@
             // 
             // btnPreenche
             // 
-            btnPreenche.Location = new System.Drawing.Point(104, 283);
+            btnPreenche.Location = new System.Drawing.Point(33, 226);
             btnPreenche.Name = "btnPreenche";
             btnPreenche.Size = new System.Drawing.Size(129, 67);
             btnPreenche.TabIndex = 3;
