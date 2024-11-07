@@ -24,8 +24,6 @@ namespace Trabalhar_com_ListBox
             lstAnimais.Items.Add("Tamanduá"); // Adiciona o item "Tamanduá" à lista lstAnimais
             lstAnimais.Items.Add("Carpa"); // Adiciona o item "Carpa" à lista lstAnimais
             lstAnimais.Items.Add(txtItem.Text); // Adiciona o conteúdo do controle txtItem (texto digitado pelo usuário) à lista lstAnimais
-
-
         }
     }
 }
