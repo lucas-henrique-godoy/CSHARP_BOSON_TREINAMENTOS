@@ -31,5 +31,19 @@ namespace ListBox_e_ComboBox
             }
 
         }
+
+        private void btnPreenche_Click(object sender, EventArgs e)
+        {
+            if (lstAnimais.Items.Count == 0) // Verifica se a lista lstAnimais está vazia (se o número de itens na lista é 0)
+            {
+                string[] bichos = new string[10] { "Jacaré", "Onça", "Elefante", "Gato", "Cão", "Papagaio", "Lontra", "Golfinho", "Foca", "Tatu" }; // Cria um array de strings com 10 elementos (nomes de animais)
+                lstAnimais.Items.AddRange(bichos); // Adiciona todos os elementos do array bichos à lista lstAnimais de uma vez
+            }
+            else
+            {
+                MessageBox.Show("Lista já preenchida!", "Lista Preenchida"); // Exibe uma mensagem informando que a lista já está preenchida
+            }
+
+        }
     }
 }

@@ -31,7 +31,7 @@
             lstAnimais = new System.Windows.Forms.ListBox();
             btnAdiciona = new System.Windows.Forms.Button();
             label1 = new System.Windows.Forms.Label();
-            button2 = new System.Windows.Forms.Button();
+            btnPreenche = new System.Windows.Forms.Button();
             label2 = new System.Windows.Forms.Label();
             txtAdicionaItem = new System.Windows.Forms.TextBox();
             button3 = new System.Windows.Forms.Button();
@@ -69,14 +69,15 @@
             label1.TabIndex = 2;
             label1.Text = "Trabalhando com ListBox em C#";
             // 
-            // button2
+            // btnPreenche
             // 
-            button2.Location = new System.Drawing.Point(104, 283);
-            button2.Name = "button2";
-            button2.Size = new System.Drawing.Size(129, 67);
-            button2.TabIndex = 3;
-            button2.Text = "Preencher Lista Automaticamente";
-            button2.UseVisualStyleBackColor = true;
+            btnPreenche.Location = new System.Drawing.Point(104, 283);
+            btnPreenche.Name = "btnPreenche";
+            btnPreenche.Size = new System.Drawing.Size(129, 67);
+            btnPreenche.TabIndex = 3;
+            btnPreenche.Text = "Preencher Lista Automaticamente";
+            btnPreenche.UseVisualStyleBackColor = true;
+            btnPreenche.Click += btnPreenche_Click;
             // 
             // label2
             // 
@@ -143,7 +144,7 @@
             Controls.Add(button3);
             Controls.Add(txtAdicionaItem);
             Controls.Add(label2);
-            Controls.Add(button2);
+            Controls.Add(btnPreenche);
             Controls.Add(label1);
             Controls.Add(btnAdiciona);
             Controls.Add(lstAnimais);
@@ -158,7 +159,7 @@
         private System.Windows.Forms.ListBox lstAnimais;
         private System.Windows.Forms.Button btnAdiciona;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPreenche;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtAdicionaItem;
         private System.Windows.Forms.Button button3;
