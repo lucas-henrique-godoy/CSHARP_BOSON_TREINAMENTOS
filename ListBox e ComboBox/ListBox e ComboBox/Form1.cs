@@ -45,5 +45,10 @@ namespace ListBox_e_ComboBox
             }
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            lstAnimais.Items.Clear();
+        }
     }
 }
