@@ -25,9 +25,19 @@ namespace Trabalhar_com_ListBox
             lstAnimais.Items.Add("Carpa"); // Adiciona o item "Carpa" à lista lstAnimais
             lstAnimais.Items.Add(txtItem.Text); // Adiciona o conteúdo do controle txtItem (texto digitado pelo usuário) à lista lstAnimais*/
 
-            // Adiciona todos os itens de um array à lista de uma vez
-            string[] animais = new string[7] { "Gato", "Cão", "Papagaio", "Lontra", "Golfinho", "Foca", "Tatu" };
-            lstAnimais.Items.AddRange(animais);
+            // Adiciona os itens de um array à lista, se a lista estiver vazia
+            string[] animais = new string[7] { "Gato", "Cão", "Papagaio", "Lontra", "Golfinho", "Foca", "Tatu" }; // Cria um array com 7 nomes de animais
+
+            if (lstAnimais.Items.Count == 0) // Verifica se a lista está vazia (não possui itens)
+            {
+                lstAnimais.Items.AddRange(animais); // Adiciona todos os itens do array 'animais' à lista lstAnimais
+            }
+            else
+            {
+                MessageBox.Show("Lista já preenchida!"); // Exibe uma mensagem caso a lista já tenha itens
+            }
+
+
         }
     }
 }
