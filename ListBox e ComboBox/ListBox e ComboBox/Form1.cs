@@ -25,7 +25,7 @@ namespace ListBox_e_ComboBox
             }
             else
             {
-                lstAnimais.Items.Add(txtAdicionaItem.Text); // Adiciona o texto inserido à lista de animais
+                lstAnimais.Items.Add(txtAdicionaItem.Text); // Adiciona o texto inserido à lista de animais(Add adicona apenas 1 iten)
                 txtAdicionaItem.Clear(); // Limpa o campo de texto
                 txtAdicionaItem.Focus(); // Coloca o foco de volta no campo de texto para o próximo input
             }
@@ -37,7 +37,7 @@ namespace ListBox_e_ComboBox
             if (lstAnimais.Items.Count == 0) // Verifica se a lista lstAnimais está vazia (se o número de itens na lista é 0)
             {
                 string[] bichos = new string[10] { "Jacaré", "Onça", "Elefante", "Gato", "Cão", "Papagaio", "Lontra", "Golfinho", "Foca", "Tatu" }; // Cria um array de strings com 10 elementos (nomes de animais)
-                lstAnimais.Items.AddRange(bichos); // Adiciona todos os elementos do array bichos à lista lstAnimais de uma vez
+                lstAnimais.Items.AddRange(bichos); // Adiciona todos os elementos do array bichos à lista lstAnimais de uma vez.(AddRange adiciona um conjunto de itens)
             }
             else
             {
