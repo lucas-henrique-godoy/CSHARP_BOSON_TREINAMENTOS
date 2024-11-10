@@ -6,7 +6,10 @@ namespace Laço_For_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 1; i <= 50; i++)
+            {
+                Console.WriteLine(i.ToString());
+            }
         }
     }
 }
