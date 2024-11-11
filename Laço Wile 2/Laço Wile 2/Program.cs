@@ -11,9 +11,7 @@ namespace Laço_Wile_2
             {
                 Console.WriteLine(contador.ToString()); 
                 contador++;
-            }
-
-            
+            }            
         }
     }
 }
