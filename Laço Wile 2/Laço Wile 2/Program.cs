@@ -15,8 +15,9 @@ namespace Laço_Wile_2
             } 
             */
 
-            Console.WriteLine("Enntre com um número maior que zero: ");
+            Console.WriteLine("Entre com um número maior que zero: ");
             int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("");
 
             if ((num == 0) || (num < 0))
             {
