@@ -219,9 +219,67 @@ do
 while (expressão de teste);
 _______________________________________________________________________________________________________________________________________________________________________
 
-DECLARAÇÃO BREAK: Utilizada para sair imediatamente do corpo de um loop. O break interrompe o loop completamente, o continue interrompe uma iteração do loop mas sem sair do programa
+DECLARAÇÃO BREAK: O comando break é utilizado para sair imediatamente de um loop (seja for, while, do-while ou foreach). Quando o break é executado, ele interrompe completamente a execução do loop, e o controle do programa é transferido para a próxima linha de código após o loop.
 
-DECLARAÇÃO CONTINUE: Podemos usar uma declaração continue para que um loop seja interrompido e realize a próxima iteração imediatamente, ignorando os comandos que estão após a declaração continue. Ou seja, o loop vai executando os comandos do seu bloco de comandos e ao encontrar a declaração continue,  ele para a execução(ele não executa o restante do bloco), mas ele não sai do loop, ele volta pro inicio avalia novamente e expressão do loop e começa de novo a iterar o bloco. O continue interrompe uma iteração do loop mas sem sair do programa, o break interrompe o loop completamente.
+Exemplo com break em C#
+Aqui está um exemplo simples que usa o break para sair imediatamente de um loop quando i atinge 3:
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            if (i == 3)
+            {
+                break;  // Interrompe o loop quando i for 3
+            }
+            Console.WriteLine(i);
+        }
+    }
+}
+
+Saída:
+0
+1
+2
+Quando i atinge 3, o comando break é executado, e o loop é encerrado imediatamente. O número 3 e os seguintes não são impressos.
+_______________________________________________________________________________________________________________________________________________________________________
+
+DECLARAÇÃO CONTINUE: O comando continue é utilizado dentro de loops (como for, while, ou do-while) para interromper a execução da iteração atual e fazer com que o loop comece a próxima iteração imediatamente. Quando o continue é executado, ele faz com que o código após a declaração continue seja ignorado na iteração atual, e o loop passa a reavaliar a condição (se for um loop com condição) ou continua com a próxima iteração, dependendo do tipo de loop.
+Exemplo de comparação com continue
+Agora, para ilustrar a diferença, vamos usar o continue, que não sai do loop, mas apenas pula a iteração atual:
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            if (i == 3)
+            {
+                continue;  // Ignora o código abaixo e vai para a próxima iteração
+            }
+            Console.WriteLine(i);
+        }
+    }
+}
+Saída:
+0
+1
+2
+4
+Neste exemplo, quando i == 3, o continue faz com que o loop pule a execução do código abaixo (não imprime 3) e continue com a próxima iteração, que é i == 4.
+_______________________________________________________________________________________________________________________________________________________________________
+Importante: O continue não encerra o loop; ele apenas pula para a próxima iteração. Para interromper completamente o loop, usa-se o comando break.
+Diferença entre break e continue:
+
+O break termina o loop por completo, ou seja, o loop é encerrado e o fluxo do programa continua a partir da primeira linha que aparece após o loop.
+O continue interrompe a iteração atual do loop, fazendo com que o código que vem depois dele na mesma iteração seja ignorado. O loop, então, continua com a próxima iteração.
 _______________________________________________________________________________________________________________________________________________________________________
 
 ARRAY: Um array ("vetor") é uma sequência não-ordenada de itens. Todos os itens em um array são do mesmo tipo. Os itens em um array são armazenados em um bloco contíguo da memória RAM e são acessados por meio de um número de índice.
