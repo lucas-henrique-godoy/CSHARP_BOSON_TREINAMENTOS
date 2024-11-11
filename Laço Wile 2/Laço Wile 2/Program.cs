@@ -6,19 +6,14 @@ namespace Laço_Wile_2
     {
         static void Main(string[] args)
         {
-            int contador = 0;
-            while (contador <= 10)
+            int contador = 1;
+            while (contador <= 50)
             {
                 Console.WriteLine(contador.ToString()); 
                 contador++;
             }
 
-            int contador2 = 10;
-            while (contador2 >= 0)
-            {
-                Console.WriteLine(contador2.ToString());
-                contador2--;
-            }
+            
         }
     }
 }
